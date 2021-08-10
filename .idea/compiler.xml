@@ -14,6 +14,7 @@
         <module name="wanxinp2p-gateway-server" />
         <module name="wanxinp2p-api" />
         <module name="wanxindepository" />
+        <module name="wanxinp2p-uaa-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,7 +52,7 @@
       <module name="wanxinp2p-repayment-service" options="" />
       <module name="wanxinp2p-sms-service" options="" />
       <module name="wanxinp2p-transaction-service" options="" />
-      <module name="wanxinp2p-uaa-service" options="" />
+      <module name="wanxinp2p-uaa-service" options="-parameters" />
     </option>
   </component>
 </project>

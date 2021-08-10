@@ -64,7 +64,7 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, Account> impl
             //如果是b端用户，用户名就是账户
             account = getAccountByUserName(accountLoginDTO.getUsername());
         }
-        if(account==null){
+        if(account == null){
             //如果为空说明用户不存在，抛出异常
             throw new BusinessException(AccountErrorCode.E_130104);
         }
