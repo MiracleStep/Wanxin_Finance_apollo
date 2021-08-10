@@ -1,0 +1,21 @@
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:41,414 INFO [main][StartupInfoLogger.java:50] - Starting SailingBootstrap v1.0-SNAPSHOT on DESKTOP-N226DJA with PID 2476 (C:\Users\apple\Desktop\wanxinp2p\day02\资料\短信验证码服务\sailing-student.jar started by apple in C:\Users\apple\Desktop\wanxinp2p\day02\资料\短信验证码服务)
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:41,430 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:42,978 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:42,986 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:43,023 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:44,315 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56085 (http)
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:44,333 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56085"]
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:44,345 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:44,347 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:44,364 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\apple\AppData\Local\Microsoft\WindowsApps;E:\apache-maven-3.5.4\bin;C:\Users\apple\AppData\Roaming\npm;.]
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:44,916 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:44,917 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 3423 ms
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:46,727 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:46,837 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:47,074 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:47,618 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:47,659 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:47,710 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:47,910 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56085"]
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:47,948 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56085 (http) with context path '/sailing'
+[sailing][${env:SERVER_PORT}] 2019-09-09 16:53:47,953 INFO [main][StartupInfoLogger.java:59] - Started SailingBootstrap in 7.107 seconds (JVM running for 9.01)

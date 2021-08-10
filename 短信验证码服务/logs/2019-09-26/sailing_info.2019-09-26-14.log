@@ -1,0 +1,33 @@
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:02,079 INFO [main][StartupInfoLogger.java:50] - Starting SailingBootstrap v1.0-SNAPSHOT on DESKTOP-N226DJA with PID 9152 (C:\Users\apple\Desktop\wanxinp2p\day02\资料\短信验证码服务\sailing-student.jar started by apple in C:\Users\apple\Desktop\wanxinp2p\day02\资料\短信验证码服务)
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:02,094 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:03,742 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:03,754 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:03,819 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:05,163 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56085 (http)
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:05,186 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56085"]
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:05,205 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:05,206 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:05,223 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\apple\AppData\Local\Microsoft\WindowsApps;E:\apache-maven-3.5.4\bin;C:\Users\apple\AppData\Roaming\npm;.]
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:05,339 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:05,340 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 3190 ms
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:06,783 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:06,896 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:07,137 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:07,683 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:07,730 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:07,779 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:07,998 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56085"]
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:08,050 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56085 (http) with context path '/sailing'
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:45:08,054 INFO [main][StartupInfoLogger.java:59] - Started SailingBootstrap in 6.571 seconds (JVM running for 7.989)
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:47:45,473 INFO [http-nio-56085-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:47:45,475 INFO [http-nio-56085-exec-2][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:47:45,531 INFO [http-nio-56085-exec-2][FrameworkServlet.java:546] - Completed initialization in 53 ms
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:47:45,821 INFO [http-nio-56085-exec-2][EpollProvider.java:68] - Starting without optional epoll library
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:47:45,827 INFO [http-nio-56085-exec-2][KqueueProvider.java:70] - Starting without optional kqueue library
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:52:04,129 INFO [lettuce-nioEventLoop-4-1][AbstractInternalLogger.java:219] - [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。] Unexpected exception during request: [null, java.io.IOException: 远程主机强迫关闭了一个现有的连接。, java.io.IOException: 远程主机强迫关闭了一个现有的连接。]
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:52:04,277 INFO [lettuce-eventExecutorLoop-1-3][AbstractInternalLogger.java:173] - Reconnecting, last destination was localhost/127.0.0.1:6379
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:52:05,313 WARN [lettuce-nioEventLoop-4-2][AbstractInternalLogger.java:176] - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:52:09,754 INFO [lettuce-eventExecutorLoop-1-2][AbstractInternalLogger.java:173] - Reconnecting, last destination was localhost:6379
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:52:10,761 WARN [lettuce-nioEventLoop-4-1][AbstractInternalLogger.java:176] - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:52:14,954 INFO [lettuce-eventExecutorLoop-1-1][AbstractInternalLogger.java:173] - Reconnecting, last destination was localhost:6379
+[sailing][${env:SERVER_PORT}] 2019-09-20 17:52:15,958 WARN [lettuce-nioEventLoop-4-5][AbstractInternalLogger.java:176] - Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
