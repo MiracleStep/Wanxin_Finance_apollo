@@ -3,17 +3,22 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/cn/itcast/wanxinp2p/account/config/HmilyConfig.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/cn/itcast/wanxinp2p/account/controller/AccountController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java/cn/itcast/wanxinp2p/api/account/model/AccountLoginDTO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java/cn/itcast/wanxinp2p/api/account/model/LoginUser.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/common/ConsumerErrorCode.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/config/HmilyConfig.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/config/WebConfig.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/entity/Consumer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/interceptor/TokenInterceptor.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-discover-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-discover-server/src/main/java" charset="UTF-8" />

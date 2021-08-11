@@ -1,0 +1,27 @@
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:00,944 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:01,696 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:04,667 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:11,674 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:11,696 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:16,669 INFO [hmilyTransaction-hmily-transaction-self-recovery-79][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:21,696 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:24,331 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:27,622 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:31,696 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:41,697 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:47,215 INFO [http-nio-53000-exec-7][AbstractInstanceRegistry.java:266] - Registered instance ACCOUNT-SERVICE/account-service:172.26.113.1:53030 with status DOWN (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:47,722 INFO [http-nio-53000-exec-5][AbstractInstanceRegistry.java:266] - Registered instance ACCOUNT-SERVICE/account-service:172.26.113.1:53030 with status DOWN (replication=true)
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:51,382 INFO [http-nio-53000-exec-2][AbstractInstanceRegistry.java:330] - Cancelled instance ACCOUNT-SERVICE/account-service:172.26.113.1:53030 (replication=false)
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:51,697 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:51,894 WARN [http-nio-53000-exec-8][AbstractInstanceRegistry.java:315] - DS: Registry: cancel failed because Lease is not registered for: ACCOUNT-SERVICE/account-service:172.26.113.1:53030
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:51,895 INFO [http-nio-53000-exec-8][InstanceResource.java:288] - Not Found (Cancel): ACCOUNT-SERVICE - account-service:172.26.113.1:53030
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:51,895 WARN [TaskBatchingWorker-target_localhost-16][ReplicationTask.java:35] - The replication of task ACCOUNT-SERVICE/account-service:172.26.113.1:53030:Cancel@localhost failed with response code 404
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:51,895 WARN [TaskBatchingWorker-target_localhost-16][PeerEurekaNode.java:171] - ACCOUNT-SERVICE/account-service:172.26.113.1:53030:Cancel@localhost: missing entry.
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:54,330 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:01:57,627 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:02:01,698 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:02:04,668 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:02:11,185 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:02:11,675 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:02:11,698 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-11 16:02:16,683 INFO [hmilyTransaction-hmily-transaction-self-recovery-79][LogUtil.java:87] - self recovery execute delayTime:60
