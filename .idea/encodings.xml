@@ -20,6 +20,8 @@
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/entity/Consumer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/interceptor/TokenInterceptor.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-depository-agent-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-depository-agent-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-discover-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-discover-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-discover-server/src/main/resources" charset="UTF-8" />

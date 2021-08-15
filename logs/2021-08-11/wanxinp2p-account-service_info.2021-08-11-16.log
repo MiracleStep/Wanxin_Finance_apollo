@@ -1,0 +1,768 @@
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:00:10,785 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:00:13,262 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:00:40,785 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:00:43,261 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:00:54,790 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:10,786 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:13,263 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:40,786 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:43,261 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:47,209 INFO [Thread-66][HmilyInitServiceImpl.java:66] - hmily shutdown now
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:47,210 INFO [Thread-85][EurekaServiceRegistry.java:65] - Unregistering application ACCOUNT-SERVICE with eureka with status DOWN
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:47,211 WARN [Thread-85][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1628668907211, current=DOWN, previous=UP]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:47,211 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030: registering service...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:47,216 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030 - registration status: 204
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:47,224 INFO [Thread-85][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:48,355 INFO [Thread-85][DruidDataSource.java:1885] - {dataSource-1} closing ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:48,366 INFO [Thread-85][DruidDataSource.java:1955] - {dataSource-1} closed
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:48,376 INFO [Thread-85][DisposableBeanAdapter.java:265] - Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:48,377 INFO [Thread-85][DisposableBeanAdapter.java:347] - Destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:48,378 INFO [Thread-85][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:51,378 INFO [Thread-85][DiscoveryClient.java:922] - Unregistering ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:51,383 INFO [Thread-85][DiscoveryClient.java:924] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030 - deregister  status: 200
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:01:51,393 INFO [Thread-85][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:04,675 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to account-service by app.id property from System Property
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:04,688 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:04,732 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:04,737 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://192.168.85.131:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:11,627 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,007 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,010 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,032 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,140 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,238 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,389 INFO [main][GenericScope.java:294] - BeanFactory id=e3a36265-7489-38a4-9236-684be88e36ff
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,413 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,464 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,472 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$9ed4c5be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:13,484 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,756 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,758 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$d1d23653] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,762 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$841ef86c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,766 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$$EnhancerBySpringCGLIB$$3f35de5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,771 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,775 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,782 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration$$EnhancerBySpringCGLIB$$66015589] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,789 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,791 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$$EnhancerBySpringCGLIB$$b3ddd3e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,844 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,844 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,849 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,852 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:15,879 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:23,739 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:23,743 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:23,829 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$763eb6c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,047 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,066 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,068 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'hmilyFeignConfiguration' of type [org.dromara.hmily.springcloud.configuration.HmilyFeignConfiguration$$EnhancerBySpringCGLIB$$a48fcf8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,086 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9258b9bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,483 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53030 (http)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,502 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53030"]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,511 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,511 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,518 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\Oracle\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\python38;D:\MySQL\mysql-8.0.19-winx64;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\MySQL\mysql-5.6.47-winx64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\python3.8;D:\python3.8\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\jdk-14.0.2\bin;D:\Program Files (x86)\Git\cmd;D:\jdk1.8.0_91\bin;C:\MinGW\bin;C:\Program Files\Pandoc\;D:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;D:\nodejs9.4\;D:\nodejs9.4\npm_modules;D:\matlab\runtime\win64;D:\matlab\bin;D:\matlab\polyspace\bin;C:\Program Files\erl9.3\bin;D:\ffmpeg-20180227-fa0c9d6-win64-static\bin;C:\Program Files\OpenSSL-Win64\bin;D:\Ruby25\bin;C:\Users\suxiang\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;D:\MySQL\mysql-8.0.19-winx64\bin;D:\python3.8;D:\Program Files (x86)\WebStorm 2021.1.1\bin;;C:\Program Files (x86)\GitHub CLI\;D:\Program Files (x86)\PyCharm 2021.1.1\bin;;D:\Program Files (x86)\IntelliJ IDEA 2021.1.1\bin;;D:\Program Files (x86)\CLion 2020.1\bin;;C:\Users\suxiang\AppData\Local\GitHubDesktop\bin;C:\Users\suxiang\AppData\Roaming\npm;;.]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,696 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,696 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 13057 ms
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,873 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,873 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:24,886 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@11174bf
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:25,016 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:25,339 INFO [main][DruidDataSource.java:1002] - {dataSource-1} inited
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:25,947 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:25,951 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:28,157 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:28,741 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:28,764 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:28,818 INFO [main][HmilyLogo.java:49] - 
+
+
+    __  __          _ __     
+   / / / /___ ___  (_) /_  __
+  / /_/ / __ `__ \/ / / / / /
+ / __  / / / / / / / / /_/ / 
+/_/ /_/_/ /_/ /_/_/_/\__, /  
+                    /____/   
+
+ :: Hmily :: (v2.0.5-RELEASE)
+
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:28,846 INFO [main][AutowiredAnnotationBeanPostProcessor.java:342] - Inconsistent constructor declaration on bean with name 'hmilyTransactionSelfRecoveryScheduled': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled(org.dromara.hmily.common.config.HmilyConfig)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:29,947 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:30,052 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:30,074 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:30,075 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:30,199 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:32,608 INFO [main][SLF4JLogger.java:71] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:32,715 INFO [cluster-ClusterId{value='611384182d4529595446076a', description='null'}-localhost:27017][SLF4JLogger.java:71] - Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:32,719 INFO [cluster-ClusterId{value='611384182d4529595446076a', description='null'}-localhost:27017][SLF4JLogger.java:71] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 25]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=1813000}
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,011 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,279 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,324 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,406 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,406 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,564 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,565 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:36,852 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:37,945 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:37,946 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:37,946 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:37,946 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:37,946 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:37,946 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:37,946 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,172 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,176 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,179 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,183 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1628668958182 with initial instances count: 3
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,186 INFO [main][EurekaServiceRegistry.java:42] - Registering application ACCOUNT-SERVICE with eureka with status UP
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,187 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1628668958187, current=UP, previous=STARTING]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,189 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,190 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030: registering service...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,201 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,233 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030 - registration status: 204
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,242 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,406 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53030"]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,427 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53030 (http) with context path '/account'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,428 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53030
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,431 INFO [main][StartupInfoLogger.java:59] - Started Wanxinp2pAccountServiceApplication in 40.303 seconds (JVM running for 44.215)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,949 INFO [RMI TCP Connection(7)-172.26.113.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,949 INFO [RMI TCP Connection(7)-172.26.113.1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:38,966 INFO [RMI TCP Connection(7)-172.26.113.1][FrameworkServlet.java:546] - Completed initialization in 17 ms
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:52,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:02:55,753 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:03:22,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:03:28,883 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:03:37,036 ERROR [http-nio-53030-exec-1][GlobalExceptionHandler.java:47] - 【系统异常】我是故意的！
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:03:37,158 INFO [http-nio-53030-exec-2][AccountServiceImpl.java:101] - execute cancelRegister
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:03:52,370 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:01,896 ERROR [http-nio-53030-exec-3][GlobalExceptionHandler.java:47] - 【系统异常】我是故意的！
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:02,253 INFO [http-nio-53030-exec-6][AccountServiceImpl.java:101] - execute cancelRegister
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:03,901 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:38,406 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:04:55,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:05:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:05:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:05:38,414 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:05:52,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:05:55,758 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:06:22,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:06:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:06:38,415 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:06:52,365 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:06:55,749 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:07:22,365 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:07:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:07:37,950 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:07:38,417 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:07:52,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:07:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:08:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:08:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:08:38,418 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:08:52,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:08:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:09:22,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:09:25,755 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:09:38,420 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:09:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:09:55,754 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:10:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:10:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:10:38,422 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:10:52,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:10:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:11:22,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:11:25,772 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:11:38,423 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:11:52,379 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:11:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:12:22,365 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:12:25,754 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:12:37,951 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:12:38,431 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:12:52,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:12:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:13:22,375 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:13:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:13:38,433 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:13:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:13:55,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:14:22,365 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:14:25,749 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:14:38,434 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:14:52,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:14:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:15:22,372 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:15:25,753 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:15:38,435 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:15:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:15:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:16:22,372 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:16:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:16:38,437 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:16:52,385 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:16:55,761 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:17:22,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:17:25,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:17:37,953 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:17:38,439 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:17:52,376 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:17:55,760 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:18:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:18:25,762 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:18:38,440 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:18:52,371 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:18:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:19:22,371 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:19:25,749 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:19:38,442 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:19:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:19:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:20:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:20:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:20:38,444 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:20:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:20:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:21:22,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:21:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:21:38,445 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:21:52,373 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:21:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:22:22,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:22:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:22:37,953 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:22:38,446 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:22:52,376 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:22:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:23:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:23:25,755 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:23:38,449 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:23:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:23:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:24:22,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:24:25,759 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:24:38,451 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:24:52,391 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:24:55,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:25:22,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:25:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:25:38,452 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:25:52,378 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:25:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:26:22,391 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:26:25,763 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:26:38,454 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:26:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:26:55,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:27:22,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:27:25,761 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:27:37,954 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:27:38,456 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:27:52,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:27:55,759 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:28:22,371 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:28:25,749 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:28:38,458 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:28:52,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:28:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:29:22,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:29:25,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:29:38,459 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:29:52,365 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:29:55,766 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:30:22,371 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:30:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:30:38,461 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:30:52,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:30:55,756 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:31:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:31:25,749 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:31:38,463 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:31:52,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:31:55,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:32:22,368 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:32:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:32:37,954 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:32:38,464 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:32:52,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:32:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:33:22,367 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:33:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:33:38,467 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:33:52,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:33:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:34:22,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:34:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:34:38,469 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:34:52,373 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:34:55,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:35:22,370 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:35:25,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:35:38,470 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:35:52,365 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:35:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:36:22,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:36:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:36:38,471 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:36:52,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:36:55,756 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:37:22,375 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:37:25,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:37:37,955 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:37:38,473 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:37:52,365 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:37:55,751 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:38:22,369 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:38:25,752 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:38:38,475 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:38:52,366 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:38:55,750 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:22,376 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:26,001 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:38,476 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:42,761 ERROR [DiscoveryClient-CacheRefreshExecutor-0][RedirectingEurekaHttpClient.java:91] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1479)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1446)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:42,768 WARN [DiscoveryClient-CacheRefreshExecutor-0][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:42,860 ERROR [DiscoveryClient-HeartbeatExecutor-0][RedirectingEurekaHttpClient.java:91] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1405)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 27 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:42,861 WARN [DiscoveryClient-HeartbeatExecutor-0][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:46,774 ERROR [DiscoveryClient-CacheRefreshExecutor-0][RedirectingEurekaHttpClient.java:83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getDelta(AbstractJerseyEurekaHttpClient.java:170)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1479)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1446)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:46,775 WARN [DiscoveryClient-CacheRefreshExecutor-0][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:46,775 ERROR [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:972] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1085)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:967)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1479)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1446)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:46,889 ERROR [DiscoveryClient-HeartbeatExecutor-0][RedirectingEurekaHttpClient.java:83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.put(WebResource.java:529)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.sendHeartBeat(AbstractJerseyEurekaHttpClient.java:102)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1405)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 28 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:46,890 WARN [DiscoveryClient-HeartbeatExecutor-0][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:46,891 ERROR [DiscoveryClient-HeartbeatExecutor-0][DiscoveryClient.java:860] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:846)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1405)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:49,364 INFO [Thread-77][EurekaServiceRegistry.java:65] - Unregistering application ACCOUNT-SERVICE with eureka with status DOWN
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:49,364 INFO [Thread-53][HmilyInitServiceImpl.java:66] - hmily shutdown now
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:49,365 WARN [Thread-77][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1628671189364, current=DOWN, previous=UP]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:49,366 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030: registering service...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:49,377 INFO [Thread-77][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:50,503 INFO [Thread-77][DruidDataSource.java:1885] - {dataSource-1} closing ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:50,506 INFO [Thread-77][DruidDataSource.java:1955] - {dataSource-1} closed
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:50,513 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:50,516 INFO [Thread-77][DisposableBeanAdapter.java:265] - Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:50,516 INFO [Thread-77][DisposableBeanAdapter.java:347] - Destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:50,516 INFO [Thread-77][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:53,406 ERROR [DiscoveryClient-InstanceInfoReplicator-0][RedirectingEurekaHttpClient.java:83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:53,407 WARN [DiscoveryClient-InstanceInfoReplicator-0][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:53,407 WARN [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:831] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:53,408 WARN [DiscoveryClient-InstanceInfoReplicator-0][InstanceInfoReplicator.java:125] - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:53,409 INFO [Thread-77][DiscoveryClient.java:922] - Unregistering ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:57,432 ERROR [Thread-77][RedirectingEurekaHttpClient.java:83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:404)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:139)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 42 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:57,433 WARN [Thread-77][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:57,433 ERROR [Thread-77][DiscoveryClient.java:926] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.26.113.1:53030 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:404)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:139)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-11 16:39:57,440 INFO [Thread-77][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient

@@ -13,7 +13,7 @@
         <module name="wanxinp2p-common" />
         <module name="wanxinp2p-gateway-server" />
         <module name="wanxinp2p-api" />
-        <module name="wanxindepository" />
+        <module name="wanxinp2p-depository-agent-service" />
         <module name="wanxinp2p-uaa-service" />
       </profile>
     </annotationProcessing>
@@ -45,7 +45,7 @@
       <module name="wanxinp2p-common" options="-parameters" />
       <module name="wanxinp2p-consumer-service" options="-parameters" />
       <module name="wanxinp2p-content-search-service" options="" />
-      <module name="wanxinp2p-depository-agent-service" options="" />
+      <module name="wanxinp2p-depository-agent-service" options="-parameters" />
       <module name="wanxinp2p-discover-server" options="-parameters" />
       <module name="wanxinp2p-file-service" options="" />
       <module name="wanxinp2p-gateway-server" options="-parameters" />

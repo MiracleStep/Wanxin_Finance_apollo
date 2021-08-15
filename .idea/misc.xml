@@ -4,9 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../wanxindepository/pom.xml" />
         <option value="$PROJECT_DIR$/wanxinp2p-account-service/pom.xml" />
         <option value="$PROJECT_DIR$/wanxinp2p-uaa-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wanxinp2p-depository-agent-service/pom.xml" />
       </list>
     </option>
   </component>

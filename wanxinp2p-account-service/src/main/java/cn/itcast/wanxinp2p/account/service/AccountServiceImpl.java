@@ -55,9 +55,6 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, Account> impl
         }
         account.setDomain("c");
 
-        if(registerDTO.getMobile().equals("110")){
-            throw new RuntimeException("我是故意的！");
-        }
 
         save(account);
         return convertAccountEntityToDTO(account);
