@@ -83,7 +83,7 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
                 consumerRegisterDTO.getMobile()));
     }
 
-    private ConsumerDTO getByMobile(String mobile){
+    public ConsumerDTO getByMobile(String mobile){
         QueryWrapper<Consumer> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("mobile",mobile);
         Consumer consumer = getOne(queryWrapper);

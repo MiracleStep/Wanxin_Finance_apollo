@@ -7,6 +7,7 @@ import com.netflix.zuul.context.RequestContext;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
+import org.springframework.security.oauth2.provider.OAuth2Request;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
@@ -42,7 +43,8 @@ public class AuthFilter extends ZuulFilter {
         }
         //2.将当前登录的用户以及接入客户端的信息放入Map中
         OAuth2Authentication oauth2Authentication=(OAuth2Authentication)authentication;
-
+        OAuth2Request oAuth2Request = oauth2Authentication.getOAuth2Request();
+        Map<String, String> requestParameters = oAuth2Request.getRequestParameters();
         Map<String,String> jsonToken = new HashMap<>
                 (oauth2Authentication.getOAuth2Request().getRequestParameters());
         /*3.将jsonToken写入转发微服务的request中，这样微服务就能通过

@@ -13,6 +13,8 @@
         <module name="wanxinp2p-common" />
         <module name="wanxinp2p-gateway-server" />
         <module name="wanxinp2p-api" />
+        <module name="wanxinp2p-content-search-service" />
+        <module name="wanxinp2p-transaction-service" />
         <module name="wanxinp2p-depository-agent-service" />
         <module name="wanxinp2p-uaa-service" />
       </profile>
@@ -44,14 +46,14 @@
       <module name="wanxinp2p-api" options="-parameters" />
       <module name="wanxinp2p-common" options="-parameters" />
       <module name="wanxinp2p-consumer-service" options="-parameters" />
-      <module name="wanxinp2p-content-search-service" options="" />
+      <module name="wanxinp2p-content-search-service" options="-parameters" />
       <module name="wanxinp2p-depository-agent-service" options="-parameters" />
       <module name="wanxinp2p-discover-server" options="-parameters" />
       <module name="wanxinp2p-file-service" options="" />
       <module name="wanxinp2p-gateway-server" options="-parameters" />
       <module name="wanxinp2p-repayment-service" options="" />
       <module name="wanxinp2p-sms-service" options="" />
-      <module name="wanxinp2p-transaction-service" options="" />
+      <module name="wanxinp2p-transaction-service" options="-parameters" />
       <module name="wanxinp2p-uaa-service" options="-parameters" />
     </option>
   </component>

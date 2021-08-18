@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/cn/itcast/wanxinp2p/account/config/HmilyConfig.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/cn/itcast/wanxinp2p/account/config/HmilyConfig.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/java/cn/itcast/wanxinp2p/account/controller/AccountController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-account-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java/cn/itcast/wanxinp2p/api/account/model/AccountLoginDTO.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java/cn/itcast/wanxinp2p/api/account/model/LoginUser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java/cn/itcast/wanxinp2p/api/depository/model/DepositoryResponseDTO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java/cn/itcast/wanxinp2p/api/transaction/model/ProjectDTO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-api/src/main/java/cn/itcast/wanxinp2p/api/transaction/model/ProjectQueryDTO.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service" charset="UTF-8" />
@@ -20,6 +23,8 @@
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/entity/Consumer.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/java/cn/itcast/wanxinp2p/consumer/interceptor/TokenInterceptor.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-consumer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-content-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-content-search-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-depository-agent-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-depository-agent-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-discover-server" charset="UTF-8" />
@@ -34,8 +39,11 @@
     <file url="file://$PROJECT_DIR$/wanxinp2p-gateway-server/src/main/java/cn/itcast/wanxinp2p/gateway/config/RestOAuth2AuthExceptionEntryPoint.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-gateway-server/src/main/java/cn/itcast/wanxinp2p/gateway/filter/AuthFilter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-gateway-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-transaction-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wanxinp2p-transaction-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-uaa-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wanxinp2p-uaa-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/说明.txt" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

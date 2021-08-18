@@ -2,6 +2,7 @@ package cn.itcast.wanxinp2p.consumer.controller;
 
 import cn.itcast.wanxinp2p.api.account.model.ConsumerRequest;
 import cn.itcast.wanxinp2p.api.consumer.ConsumerAPI;
+import cn.itcast.wanxinp2p.api.consumer.model.ConsumerDTO;
 import cn.itcast.wanxinp2p.api.consumer.model.ConsumerRegisterDTO;
 import cn.itcast.wanxinp2p.api.depository.model.GatewayRequest;
 import cn.itcast.wanxinp2p.common.domain.RestResponse;
@@ -12,10 +13,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @Api(value = "用户服务的Controller", tags = "Consumer", description = "用户服务API")
@@ -44,6 +42,24 @@ public class ConsumerController implements ConsumerAPI {
     public RestResponse<GatewayRequest> createConsumer(@RequestBody ConsumerRequest consumerRequest) {
         consumerRequest.setMobile(SecurityUtil.getUser().getMobile());
         return consumerService.createConsumer(consumerRequest);
+    }
+
+    @Override
+    @ApiOperation("获取登陆用户信息")
+    @GetMapping("/l/currConsumer/{mobile}")
+    public RestResponse<ConsumerDTO> getCurrConsumer(@PathVariable("mobile") String mobile) {
+        ConsumerDTO consumerDTO = consumerService.getByMobile(mobile);
+        return RestResponse.success(consumerDTO);
+
+    }
+
+    @Override
+    @ApiOperation("获取登录用户信息")
+    @GetMapping("/my/consumers")
+    public RestResponse<ConsumerDTO> getMyConsumer() {
+        ConsumerDTO consumerDTO = consumerService
+                .getByMobile(SecurityUtil.getUser().getMobile());
+        return RestResponse.success(consumerDTO);
     }
 
 

@@ -65,11 +65,8 @@ public class ResouceServerConfig {
         private TokenStore tokenStore;
 
         @Override
-        public void configure(ResourceServerSecurityConfigurer resources)
-                throws Exception {
-            resources.tokenStore(tokenStore).resourceId(RESOURCE_ID)
-                    .stateless(true);
-
+        public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
+            resources.tokenStore(tokenStore).resourceId(RESOURCE_ID).stateless(true);
             resources.authenticationEntryPoint(point).accessDeniedHandler(handler);
         }
 
@@ -86,7 +83,6 @@ public class ResouceServerConfig {
                     .antMatchers("/consumer/**").permitAll();
 
         }
-
     }
 
 
