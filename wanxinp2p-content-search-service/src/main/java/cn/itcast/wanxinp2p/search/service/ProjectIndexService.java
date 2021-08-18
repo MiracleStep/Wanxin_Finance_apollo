@@ -1,6 +1,6 @@
 package cn.itcast.wanxinp2p.search.service;
 
-import cn.itcast.wanxinp2p.api.search.ProjectQueryParamsDTO;
+import cn.itcast.wanxinp2p.api.search.model.ProjectQueryParamsDTO;
 import cn.itcast.wanxinp2p.api.transaction.model.ProjectDTO;
 import cn.itcast.wanxinp2p.common.domain.PageVO;
 

@@ -40,4 +40,18 @@ public interface ProjectService {
      * @return String
      */
     String projectsApprovalStatus(Long id, String approveStatus);
+
+
+    /**
+     * 交易中心标的查询
+     * @param projectQueryDTO
+     * @param order
+     * @param pageNo
+     * @param pageSize
+     * @param sortBy
+     * @return
+     */
+    PageVO<ProjectDTO> queryProjects(ProjectQueryDTO projectQueryDTO, String order,
+                                     Integer pageNo, Integer pageSize, String sortBy);
+
 }
