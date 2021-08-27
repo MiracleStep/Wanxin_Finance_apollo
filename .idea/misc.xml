@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/wanxinp2p-depository-agent-service/pom.xml" />
         <option value="$PROJECT_DIR$/wanxinp2p-transaction-service/pom.xml" />
         <option value="$PROJECT_DIR$/wanxinp2p-content-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wanxinp2p-repayment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wanxinp2p-discover-server/pom.xml" />
       </list>
     </option>
   </component>

@@ -13,7 +13,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @EnableFeignClients(basePackages = {"cn.itcast.wanxinp2p.consumer.agent"})
 public class ConsumerService {
-
     public static void main(String[] args) {
         SpringApplication.run(ConsumerService.class, args);
     }

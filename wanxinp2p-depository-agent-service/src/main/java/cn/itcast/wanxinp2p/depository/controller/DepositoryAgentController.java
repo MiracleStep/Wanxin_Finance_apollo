@@ -5,7 +5,10 @@ import cn.itcast.wanxinp2p.api.depository.DepositoryAgentApi;
 import cn.itcast.wanxinp2p.api.depository.model.DepositoryBaseResponse;
 import cn.itcast.wanxinp2p.api.depository.model.DepositoryResponseDTO;
 import cn.itcast.wanxinp2p.api.depository.model.GatewayRequest;
+import cn.itcast.wanxinp2p.api.depository.model.LoanRequest;
+import cn.itcast.wanxinp2p.api.transaction.model.ModifyProjectStatusDTO;
 import cn.itcast.wanxinp2p.api.transaction.model.ProjectDTO;
+import cn.itcast.wanxinp2p.api.transaction.model.UserAutoPreTransactionRequest;
 import cn.itcast.wanxinp2p.common.domain.RestResponse;
 import cn.itcast.wanxinp2p.depository.service.DepositoryRecordService;
 import io.swagger.annotations.Api;
@@ -49,4 +52,47 @@ public class DepositoryAgentController implements DepositoryAgentApi {
                 restResponse.setMsg(depositoryResponse.getRespData().getRespMsg());
                 return restResponse;
         }
+
+        @Override
+        @ApiOperation(value = "预授权处理")
+        @ApiImplicitParam(name = "userAutoPreTransactionRequest",
+                value = "平台向存管系统发送标的信息", required = true,
+                dataType = "UserAutoPreTransactionRequest", paramType = "body")
+        @PostMapping("/l/user-auto-pre-transaction")
+        public RestResponse<String> userAutoPreTransaction(@RequestBody UserAutoPreTransactionRequest userAutoPreTransactionRequest) {
+                DepositoryResponseDTO<DepositoryBaseResponse> depositoryResponseDTO = depositoryRecordService.userAutoPreTransaction(userAutoPreTransactionRequest);
+                return getRestResponse(depositoryResponseDTO);
+        }
+
+        /**
+         * 统一处理响应信息
+         * @param depositoryResponse
+         * @return
+         */
+        private RestResponse<String> getRestResponse(DepositoryResponseDTO<DepositoryBaseResponse>
+                                depositoryResponse) {
+                final RestResponse<String> restResponse = new RestResponse<>();
+                restResponse.setResult(depositoryResponse.getRespData().getRespCode());
+                restResponse.setMsg(depositoryResponse.getRespData().getRespMsg());
+                return restResponse;
+        }
+
+        @Override
+        @ApiOperation(value = "审核标的满标放款")
+        @ApiImplicitParam(name = "loanRequest", value = "标的满标放款信息", required = true, dataType = "LoanRequest", paramType = "body")
+        @PostMapping("l/confirm-loan")
+        public RestResponse<String> confirmLoan(@RequestBody LoanRequest loanRequest){
+                DepositoryResponseDTO<DepositoryBaseResponse> depositoryResponseDTO = depositoryRecordService.confirmLoan(loanRequest);
+                return getRestResponse(depositoryResponseDTO);
+        }
+
+        @Override
+        @ApiOperation(value = "修改标的状态")
+        @ApiImplicitParam(name = "modifyProjectStatusDTO", value = "修改标的状态DTO", required = true, dataType = "ModifyProjectStatusDTO", paramType = "body")
+        @PostMapping("l/modify-project-status")
+        public RestResponse<String> modifyProjectStatus(@RequestBody ModifyProjectStatusDTO modifyProjectStatusDTO){
+                DepositoryResponseDTO<DepositoryBaseResponse> depositoryResponseDTO = depositoryRecordService.modifyProjectStatus(modifyProjectStatusDTO);
+                return getRestResponse(depositoryResponseDTO);
+        }
+
 }

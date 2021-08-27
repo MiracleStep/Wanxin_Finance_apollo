@@ -1,0 +1,207 @@
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:00:28,099 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:00:28,401 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:00:47,865 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:01:28,100 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:01:28,403 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:01:46,513 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:01:47,867 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:02:28,102 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:02:28,405 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:02:47,868 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:03:28,102 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:03:28,407 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:03:47,869 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:04:28,104 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:04:28,408 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:04:47,870 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:05:28,104 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:05:28,410 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:05:47,872 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:06:28,106 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:06:28,411 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:06:46,514 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:06:47,873 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:07:28,108 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:07:28,413 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:07:47,875 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:08:28,109 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:08:28,414 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:08:47,876 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:09:28,111 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:09:28,414 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:09:47,878 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:10:28,112 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:10:28,415 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:10:47,884 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:11:28,114 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:11:28,417 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:11:46,515 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:11:47,886 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:12:28,115 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:12:28,419 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:12:47,888 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:13:28,117 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:13:28,420 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:13:47,889 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:14:28,118 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:14:28,422 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:14:47,891 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:15:28,120 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:15:28,423 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:15:47,892 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:16:28,121 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:16:28,425 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:16:46,519 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:16:47,894 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:17:28,122 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:17:28,426 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:17:47,896 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:18:28,124 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:18:28,429 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:18:47,897 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:19:28,126 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:19:28,460 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:19:47,899 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:20:28,127 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:20:28,462 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:20:47,901 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:21:28,129 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:21:28,463 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:21:46,520 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:21:47,902 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:22:28,131 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:22:28,465 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:22:47,904 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:23:28,133 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:23:28,466 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:23:47,907 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:24:28,136 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:24:28,468 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:24:47,911 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:25:28,139 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:25:28,470 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:25:47,912 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:26:28,140 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:26:28,471 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:26:46,520 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:26:47,914 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:27:28,141 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:27:28,472 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:27:47,915 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:28:28,143 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:28:28,474 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:28:47,917 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:29:28,144 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:29:28,474 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:29:47,918 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:30:28,145 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:30:28,476 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:30:47,920 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:31:28,147 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:31:28,477 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:31:46,521 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:31:47,922 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:32:28,148 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:32:28,479 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:32:47,923 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:33:28,150 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:33:28,480 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:33:47,925 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:34:28,152 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:34:28,482 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:34:47,927 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:35:28,153 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:35:28,483 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:35:47,928 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:36:28,155 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:36:28,485 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:36:46,524 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:36:47,930 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:37:28,156 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:37:28,487 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:37:47,932 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:38:28,158 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:38:28,489 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:38:47,933 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:39:28,159 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:39:28,491 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:39:47,936 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:40:28,162 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:40:28,492 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:40:47,937 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:41:28,165 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:41:28,494 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:41:46,525 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:41:47,939 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:42:28,167 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:42:28,496 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:42:47,940 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:43:28,168 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:43:28,497 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:43:47,942 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:44:28,170 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:44:28,498 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:44:47,943 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:45:28,171 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:45:28,500 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:45:47,945 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:46:28,172 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:46:28,502 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:46:46,526 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:46:47,947 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:47:28,174 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:47:28,503 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:47:47,949 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:48:28,175 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:48:28,504 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:48:47,951 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:49:28,176 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:49:28,506 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:49:47,953 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:50:28,178 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:50:28,508 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:50:47,954 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:51:28,179 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:51:28,511 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:51:46,526 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:51:47,956 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:52:28,180 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:52:28,513 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:52:47,957 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:53:28,182 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:53:28,516 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:53:47,959 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:54:28,184 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:54:28,518 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:54:47,961 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:55:28,186 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:55:28,519 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:55:47,963 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:56:28,187 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:56:28,520 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:56:46,527 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:56:47,964 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:57:28,189 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:57:28,522 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:57:47,965 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:58:28,190 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:58:28,523 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:58:47,967 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:58:59,570 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:58:59,577 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:58:59,579 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:03,720 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:03,721 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:03,723 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:11,492 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:11,493 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:11,494 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:15,686 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:15,687 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:15,688 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:18,289 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:18,290 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:18,292 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:28,191 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:28,524 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 14:59:47,968 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60

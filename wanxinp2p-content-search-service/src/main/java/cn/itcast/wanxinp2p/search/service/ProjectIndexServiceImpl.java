@@ -92,6 +92,8 @@ public class ProjectIndexServiceImpl implements ProjectIndexService{
                 String name = (String) sourceAsMap.get("name");
                 String description = (String) sourceAsMap.get("description");
                 BigDecimal annualRat = new BigDecimal(sourceAsMap.get("annualrate").toString());
+                Long id = (Long)sourceAsMap.get("id");
+                projectDTO.setId(id);
                 projectDTO.setAmount(new BigDecimal(amount));
                 projectDTO.setProjectStatus(projectstatus);
                 projectDTO.setPeriod(period);

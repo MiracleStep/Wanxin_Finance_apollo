@@ -9,6 +9,7 @@ import lombok.experimental.Accessors;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.Date;
 
 /**
  * <p>
@@ -114,6 +115,9 @@ public class Project implements Serializable {
      */
     @TableField("CREATE_DATE")
     private LocalDateTime createDate;
+
+    @TableField("MODIFY_DATE")
+    private Date modifyDate;
 
 
     /**

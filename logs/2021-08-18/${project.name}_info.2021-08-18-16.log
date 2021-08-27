@@ -1,0 +1,380 @@
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:02:15,887 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:02:16,894 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:02:32,439 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:07:15,887 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:07:16,891 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:07:32,440 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:12:15,888 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:12:16,893 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:12:32,471 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:17:15,887 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:17:16,891 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:17:32,472 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:22:15,886 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:22:16,891 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:22:32,473 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:27:15,887 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:27:16,891 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:27:32,473 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:32:15,886 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:32:16,896 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:32:32,475 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:37:17,902 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:37:18,907 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:37:32,476 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:42:15,887 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:42:16,891 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:42:32,477 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:47:15,887 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:47:16,892 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:47:32,477 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:47,057 INFO [Thread-59][EurekaServiceRegistry.java:65] - Unregistering application CONTENT-SEARCH-SERVICE with eureka with status DOWN
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:47,070 WARN [Thread-59][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1629276527070, current=DOWN, previous=UP]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:47,071 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090: registering service...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:47,077 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:47,303 INFO [Thread-59][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:47,416 INFO [Thread-59][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:50,418 INFO [Thread-59][DiscoveryClient.java:922] - Unregistering ...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:50,424 INFO [Thread-59][DiscoveryClient.java:924] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090 - deregister  status: 200
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:48:50,442 INFO [Thread-59][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:06,312 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to content-search-service by app.id property from System Property
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:06,321 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:06,370 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:06,376 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://192.168.85.131:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:13,183 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:14,190 WARN [main][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103 [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:14,198 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:15,203 WARN [main][LocalFileConfigRepository.java:167] - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:15,209 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:16,217 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:17,224 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:17,229 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:18,234 WARN [main][LocalFileConfigRepository.java:167] - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:18,235 WARN [main][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.LocalFileConfigRepository, reason: Load config from local config failed! [Cause: Cannot read from local cache file C:\opt\data\content-search-service\config-cache\content-search-service+DEFAULT+micro_service.spring-cloud-feign.properties]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:18,239 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:19,243 WARN [main][LocalFileConfigRepository.java:167] - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:19,243 WARN [main][DefaultConfig.java:61] - Init Apollo Local Config failed - namespace: micro_service.spring-cloud-feign, reason: Load config from local config failed! [Cause: Cannot read from local cache file C:\opt\data\content-search-service\config-cache\content-search-service+DEFAULT+micro_service.spring-cloud-feign.properties].
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:19,263 WARN [main][DefaultConfig.java:95] - Could not load config for namespace micro_service.spring-cloud-feign from Apollo, please check whether the configs are released in Apollo! Return default value now!
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:19,264 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:20,541 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:20,699 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:20,834 INFO [main][GenericScope.java:294] - BeanFactory id=571b092e-9af3-3aec-ad71-7c24e69bf0eb
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:20,857 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:20,945 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5fb4d948] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,249 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53090 (http)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,267 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53090"]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,274 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,275 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,282 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\Oracle\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\python38;D:\MySQL\mysql-8.0.19-winx64;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\MySQL\mysql-5.6.47-winx64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\python3.8;D:\python3.8\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\jdk-14.0.2\bin;D:\Program Files (x86)\Git\cmd;D:\jdk1.8.0_91\bin;C:\MinGW\bin;C:\Program Files\Pandoc\;D:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;D:\nodejs9.4\;D:\nodejs9.4\npm_modules;D:\matlab\runtime\win64;D:\matlab\bin;D:\matlab\polyspace\bin;C:\Program Files\erl9.3\bin;D:\ffmpeg-20180227-fa0c9d6-win64-static\bin;C:\Program Files\OpenSSL-Win64\bin;D:\rocketmq-all-4.5.2-bin-release\bin;D:\Ruby25\bin;C:\Users\suxiang\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;D:\MySQL\mysql-8.0.19-winx64\bin;D:\python3.8;D:\Program Files (x86)\WebStorm 2021.1.1\bin;;C:\Program Files (x86)\GitHub CLI\;D:\Program Files (x86)\PyCharm 2021.1.1\bin;;D:\Program Files (x86)\IntelliJ IDEA 2021.1.1\bin;;D:\Program Files (x86)\CLion 2020.1\bin;;C:\Users\suxiang\AppData\Local\GitHubDesktop\bin;C:\Users\suxiang\AppData\Roaming\npm;;.]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,438 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,438 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2163 ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,538 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,539 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:21,553 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@23df7fad
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:24,485 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:25,824 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:25,901 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:25,918 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:25,918 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:26,110 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:28,828 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:28,984 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:29,019 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:29,080 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:29,081 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:29,197 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:29,198 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:29,475 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,603 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,603 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,603 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,603 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,603 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,603 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,603 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,759 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,762 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,765 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,768 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1629276570767 with initial instances count: 6
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,769 INFO [main][EurekaServiceRegistry.java:42] - Registering application CONTENT-SEARCH-SERVICE with eureka with status UP
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,770 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1629276570770, current=UP, previous=STARTING]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,771 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,772 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090: registering service...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:30,780 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:31,006 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:31,009 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:31,126 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53090"]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:31,146 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53090 (http) with context path '/content-search'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:31,146 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53090
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:31,148 INFO [main][StartupInfoLogger.java:59] - Started ContentSearchService in 33.488 seconds (JVM running for 38.063)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:33,569 INFO [RMI TCP Connection(4)-172.19.130.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:33,569 INFO [RMI TCP Connection(4)-172.19.130.1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:49:33,580 INFO [RMI TCP Connection(4)-172.19.130.1][FrameworkServlet.java:546] - Completed initialization in 10 ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:54:42,104 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:55:00,621 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:55:02,930 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,803 ERROR [http-nio-53090-exec-1][GlobalExceptionHandler.java:45] - 【系统异常】{}
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:262)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:105)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:144)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1223)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:696)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:686)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:553)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1149)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:394)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:295)
+	... 66 more
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,812 WARN [http-nio-53090-exec-1][ExceptionHandlerExceptionResolver.java:419] - Failure in @ExceptionHandler public cn.itcast.wanxinp2p.common.domain.RestResponse<org.springframework.lang.Nullable> cn.itcast.wanxinp2p.search.common.intercept.GlobalExceptionHandler.exceptionGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.Exception)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:262)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1100)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:915)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:287)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:103)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:408)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:61)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:139)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1297)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1109)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:105)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:144)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1223)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:743)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:696)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:686)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:553)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:157)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1149)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:394)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:295)
+	... 69 more
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,839 INFO [Thread-66][EurekaServiceRegistry.java:65] - Unregistering application CONTENT-SEARCH-SERVICE with eureka with status DOWN
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,840 WARN [Thread-66][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1629276966840, current=DOWN, previous=UP]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,840 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090: registering service...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,846 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,847 INFO [Thread-66][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:06,858 INFO [Thread-66][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:09,859 INFO [Thread-66][DiscoveryClient.java:922] - Unregistering ...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:09,863 INFO [Thread-66][DiscoveryClient.java:924] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090 - deregister  status: 200
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:09,872 INFO [Thread-66][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:32,015 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to content-search-service by app.id property from System Property
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:32,022 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:32,065 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:32,071 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://192.168.85.131:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:38,916 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:39,947 WARN [main][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103 [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:39,983 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:41,000 WARN [main][LocalFileConfigRepository.java:167] - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:41,027 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:42,033 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:43,040 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:43,046 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:44,051 WARN [main][LocalFileConfigRepository.java:167] - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:44,051 WARN [main][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.LocalFileConfigRepository, reason: Load config from local config failed! [Cause: Cannot read from local cache file C:\opt\data\content-search-service\config-cache\content-search-service+DEFAULT+micro_service.spring-cloud-feign.properties]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:44,058 WARN [main][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: content-search-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:45,062 WARN [main][LocalFileConfigRepository.java:167] - Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Load Apollo Config failed - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/content-search-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: content-search-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:45,063 WARN [main][DefaultConfig.java:61] - Init Apollo Local Config failed - namespace: micro_service.spring-cloud-feign, reason: Load config from local config failed! [Cause: Cannot read from local cache file C:\opt\data\content-search-service\config-cache\content-search-service+DEFAULT+micro_service.spring-cloud-feign.properties].
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:45,080 WARN [main][DefaultConfig.java:95] - Could not load config for namespace micro_service.spring-cloud-feign from Apollo, please check whether the configs are released in Apollo! Return default value now!
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:45,081 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:46,246 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:46,419 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:46,579 INFO [main][GenericScope.java:294] - BeanFactory id=571b092e-9af3-3aec-ad71-7c24e69bf0eb
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:46,607 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:46,704 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$26cb4ba6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,097 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53090 (http)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,112 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53090"]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,120 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,120 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,128 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\Oracle\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\python38;D:\MySQL\mysql-8.0.19-winx64;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\MySQL\mysql-5.6.47-winx64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\python3.8;D:\python3.8\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\jdk-14.0.2\bin;D:\Program Files (x86)\Git\cmd;D:\jdk1.8.0_91\bin;C:\MinGW\bin;C:\Program Files\Pandoc\;D:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;D:\nodejs9.4\;D:\nodejs9.4\npm_modules;D:\matlab\runtime\win64;D:\matlab\bin;D:\matlab\polyspace\bin;C:\Program Files\erl9.3\bin;D:\ffmpeg-20180227-fa0c9d6-win64-static\bin;C:\Program Files\OpenSSL-Win64\bin;D:\rocketmq-all-4.5.2-bin-release\bin;D:\Ruby25\bin;C:\Users\suxiang\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;D:\MySQL\mysql-8.0.19-winx64\bin;D:\python3.8;D:\Program Files (x86)\WebStorm 2021.1.1\bin;;C:\Program Files (x86)\GitHub CLI\;D:\Program Files (x86)\PyCharm 2021.1.1\bin;;D:\Program Files (x86)\IntelliJ IDEA 2021.1.1\bin;;D:\Program Files (x86)\CLion 2020.1\bin;;C:\Users\suxiang\AppData\Local\GitHubDesktop\bin;C:\Users\suxiang\AppData\Roaming\npm;;.]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,306 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,306 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2216 ms
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,432 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,433 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:47,451 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5909ae90
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:50,558 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:51,365 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:51,460 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:51,482 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:51,483 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:51,669 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:54,710 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:54,898 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:54,943 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:55,012 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:55,012 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:55,149 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:55,149 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:55,451 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,700 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,701 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,701 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,701 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,701 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,702 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,702 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,900 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,902 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,906 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,910 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1629277016908 with initial instances count: 6
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,911 INFO [main][EurekaServiceRegistry.java:42] - Registering application CONTENT-SEARCH-SERVICE with eureka with status UP
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,912 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1629277016912, current=UP, previous=STARTING]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,914 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,915 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090: registering service...
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:56,923 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:57,218 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONTENT-SEARCH-SERVICE/content-search-service:172.19.130.1:53090 - registration status: 204
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:57,225 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:57,371 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53090"]
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:57,393 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53090 (http) with context path '/content-search'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:57,395 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53090
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:56:57,398 INFO [main][StartupInfoLogger.java:59] - Started ContentSearchService in 33.101 seconds (JVM running for 38.026)
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:57:00,197 INFO [RMI TCP Connection(3)-172.19.130.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:57:00,198 INFO [RMI TCP Connection(3)-172.19.130.1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2021-08-18 16:57:00,208 INFO [RMI TCP Connection(3)-172.19.130.1][FrameworkServlet.java:546] - Completed initialization in 10 ms

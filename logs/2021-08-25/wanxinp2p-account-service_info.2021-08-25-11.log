@@ -1,0 +1,861 @@
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:08,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:09,305 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:38,336 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:39,302 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:39,738 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:39,738 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:40,740 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][HikariPool.java:574] - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:127)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:95)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:87)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:61)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:71)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.executeQuery(JdbcCoordinatorRepository.java:279)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.listAllByDelay(JdbcCoordinatorRepository.java:176)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled.lambda$selfRecovery$1(HmilyTransactionSelfRecoveryScheduled.java:91)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled$$Lambda$769/48112359.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:83)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:128)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2201)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2225)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1391)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:993)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 22 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:00:40,741 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][JdbcCoordinatorRepository.java:298] - executeQuery-> The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:08,336 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:09,304 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:15,865 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: null, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:38,336 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:39,304 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:39,638 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:40,744 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:40,744 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:41,747 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][HikariPool.java:574] - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:127)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:95)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:87)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:61)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:71)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.executeQuery(JdbcCoordinatorRepository.java:279)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.listAllByDelay(JdbcCoordinatorRepository.java:176)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled.lambda$selfRecovery$1(HmilyTransactionSelfRecoveryScheduled.java:91)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled$$Lambda$769/48112359.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:83)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:128)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2201)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2225)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1391)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:993)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 22 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:41,748 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][JdbcCoordinatorRepository.java:298] - executeQuery-> The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:01:59,663 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:08,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:09,303 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:19,698 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:35,723 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:38,337 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:39,304 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:41,749 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:41,749 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:42,753 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][HikariPool.java:574] - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:127)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:95)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:87)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:61)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:71)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.executeQuery(JdbcCoordinatorRepository.java:279)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.listAllByDelay(JdbcCoordinatorRepository.java:176)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled.lambda$selfRecovery$1(HmilyTransactionSelfRecoveryScheduled.java:91)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled$$Lambda$769/48112359.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:83)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:128)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2201)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2225)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1391)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:993)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 22 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:42,755 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][JdbcCoordinatorRepository.java:298] - executeQuery-> The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:02:51,742 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:03,764 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:08,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:09,304 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:15,778 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:19,869 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: null, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:31,791 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:38,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:39,306 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:42,756 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:42,756 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:43,760 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][HikariPool.java:574] - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:127)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:95)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:87)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:61)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:71)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.executeQuery(JdbcCoordinatorRepository.java:279)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.listAllByDelay(JdbcCoordinatorRepository.java:176)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled.lambda$selfRecovery$1(HmilyTransactionSelfRecoveryScheduled.java:91)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled$$Lambda$769/48112359.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:83)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:128)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2201)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2225)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1391)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:993)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 22 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:43,761 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][JdbcCoordinatorRepository.java:298] - executeQuery-> The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:43,807 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:03:55,823 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:08,337 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:09,304 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:15,201 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:38,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:39,302 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:43,764 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:43,764 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:44,768 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][HikariPool.java:574] - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:127)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:95)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:87)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:61)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:71)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.executeQuery(JdbcCoordinatorRepository.java:279)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.listAllByDelay(JdbcCoordinatorRepository.java:176)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled.lambda$selfRecovery$1(HmilyTransactionSelfRecoveryScheduled.java:91)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled$$Lambda$769/48112359.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:83)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:128)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2201)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2225)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1391)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:993)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 22 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:04:44,770 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][JdbcCoordinatorRepository.java:298] - executeQuery-> The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:08,337 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:09,302 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:23,872 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: null, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:38,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:39,306 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:44,771 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:44,771 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:45,775 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][HikariPool.java:574] - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:127)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:95)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:87)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:61)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:71)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:862)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:230)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:226)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.executeQuery(JdbcCoordinatorRepository.java:279)
+	at org.dromara.hmily.core.spi.repository.JdbcCoordinatorRepository.listAllByDelay(JdbcCoordinatorRepository.java:176)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled.lambda$selfRecovery$1(HmilyTransactionSelfRecoveryScheduled.java:91)
+	at org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled$$Lambda$769/48112359.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:308)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at sun.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:59)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:83)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:128)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2201)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2225)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1391)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:993)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:852)
+	... 22 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:05:45,777 ERROR [hmilyTransaction-hmily-transaction-self-recovery-2][JdbcCoordinatorRepository.java:298] - executeQuery-> The server time zone value '???迆㊣那℅??㊣??' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:08,336 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:09,303 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:38,335 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:39,302 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:39,637 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:45,779 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:45,779 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:45,794 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:06:59,666 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:08,336 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:09,303 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:19,703 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:27,891 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: null, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:35,753 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:38,342 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:39,306 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,619 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,621 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@210780be (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,624 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a85de0b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,625 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71abf95 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,627 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d69c9f3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,629 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52f1260 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,631 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31eef148 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,633 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63da06f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,634 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@302f6d2e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,636 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d6ec559 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,637 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b4c090d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:46,639 WARN [hmilyTransaction-hmily-transaction-self-recovery-2][PoolBase.java:176] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@38924b2d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:07:51,742 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:03,761 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:07,348 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:08,328 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:15,777 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:31,796 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:37,341 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:38,307 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:43,808 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:46,643 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:08:55,829 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:09:07,348 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:09:08,323 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:09:15,202 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:09:31,897 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: null, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:09:37,349 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:09:38,326 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:09:46,646 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:10:07,347 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:10:08,317 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:10:37,342 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:10:38,312 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:10:46,648 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:11:31,906 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: null, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:11:35,664 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:11:46,655 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:11:55,680 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://192.168.85.131:8080/services/config?appId=account-service&ip=192.168.137.1
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:03,115 INFO [Thread-326][HmilyInitServiceImpl.java:66] - hmily shutdown now
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:03,116 INFO [Thread-339][EurekaServiceRegistry.java:65] - Unregistering application ACCOUNT-SERVICE with eureka with status DOWN
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:03,116 WARN [Thread-339][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1629861123116, current=DOWN, previous=UP]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:03,117 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_ACCOUNT-SERVICE/account-service:192.168.137.1:53030: registering service...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:03,136 INFO [Thread-339][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:04,807 INFO [Thread-339][DruidDataSource.java:1885] - {dataSource-1} closing ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:04,969 INFO [Thread-339][DruidDataSource.java:1955] - {dataSource-1} closed
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:04,978 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[192.168.85.131:9876] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:04,985 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[192.168.85.131:9876] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:04,985 INFO [Thread-339][DisposableBeanAdapter.java:265] - Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:04,987 INFO [Thread-339][DisposableBeanAdapter.java:347] - Destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:04,988 INFO [Thread-339][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:07,610 ERROR [DiscoveryClient-InstanceInfoReplicator-0][RedirectingEurekaHttpClient.java:91] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:07,612 WARN [DiscoveryClient-InstanceInfoReplicator-0][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:07,992 INFO [Thread-339][DiscoveryClient.java:922] - Unregistering ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:11,857 ERROR [DiscoveryClient-InstanceInfoReplicator-0][RedirectingEurekaHttpClient.java:83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 31 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:11,858 WARN [DiscoveryClient-InstanceInfoReplicator-0][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:11,859 WARN [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:831] - DiscoveryClient_ACCOUNT-SERVICE/account-service:192.168.137.1:53030 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:11,860 WARN [DiscoveryClient-InstanceInfoReplicator-0][InstanceInfoReplicator.java:125] - There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:12,361 ERROR [Thread-339][RedirectingEurekaHttpClient.java:83] - Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:53000/eureka/}
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:404)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:139)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 42 more
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:12,362 WARN [Thread-339][RetryableEurekaHttpClient.java:130] - Request execution failed with message: java.net.ConnectException: Connection refused: connect
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:12,363 ERROR [Thread-339][DiscoveryClient.java:926] - DiscoveryClient_ACCOUNT-SERVICE/account-service:192.168.137.1:53030 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:923)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:901)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:404)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:139)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:12,374 INFO [Thread-339][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:39,814 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to account-service by app.id property from System Property
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:39,825 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:39,968 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:39,978 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://192.168.85.131:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:45,220 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:48,662 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:48,668 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:48,723 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:49,051 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:49,261 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:49,626 INFO [main][GenericScope.java:294] - BeanFactory id=e3a36265-7489-38a4-9236-684be88e36ff
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:49,682 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:49,878 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:49,894 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$2cd6762c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:49,945 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,659 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,664 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$5fd3e6c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,677 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$1220a8da] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,681 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$$EnhancerBySpringCGLIB$$cd378ec9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,703 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,718 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,731 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration$$EnhancerBySpringCGLIB$$f40305f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,742 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,744 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$$EnhancerBySpringCGLIB$$41df8450] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,886 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,887 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,897 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,907 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:12:53,952 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:00,072 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:00,076 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:00,187 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4406730] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:00,500 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:00,528 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:00,530 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'hmilyFeignConfiguration' of type [org.dromara.hmily.springcloud.configuration.HmilyFeignConfiguration$$EnhancerBySpringCGLIB$$32917ffc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:00,559 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$205a6a2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:01,333 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53030 (http)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:01,363 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53030"]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:01,380 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:01,382 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:01,399 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files (x86)\vmware\bin\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\jdk1.8.0_91\bin;D:\nodejs9.4;D:\python3.8\Scripts;D:\MySQL\mysql-5.6.47-winx64\bin;D:\redis-2.8.9;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files (x86)\Git\cmd;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\25855\AppData\Local\Microsoft\WindowsApps;.]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:01,781 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:01,782 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 16545 ms
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:02,103 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:02,105 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:02,140 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@a97a895
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:02,432 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:03,209 INFO [main][DruidDataSource.java:1002] - {dataSource-1} inited
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:05,534 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:05,579 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:05,625 INFO [main][HmilyLogo.java:49] - 
+
+
+    __  __          _ __     
+   / / / /___ ___  (_) /_  __
+  / /_/ / __ `__ \/ / / / / /
+ / __  / / / / / / / / /_/ / 
+/_/ /_/_/ /_/ /_/_/_/\__, /  
+                    /____/   
+
+ :: Hmily :: (v2.0.5-RELEASE)
+
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:05,645 INFO [main][AutowiredAnnotationBeanPostProcessor.java:342] - Inconsistent constructor declaration on bean with name 'hmilyTransactionSelfRecoveryScheduled': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled(org.dromara.hmily.common.config.HmilyConfig)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:07,414 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:07,628 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:07,679 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:07,680 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:07,944 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:12,950 INFO [main][SLF4JLogger.java:71] - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:13,130 INFO [cluster-ClusterId{value='6125b548b8b65d1a1814f9a5', description='null'}-localhost:27017][SLF4JLogger.java:71] - Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:27017
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:13,135 INFO [cluster-ClusterId{value='6125b548b8b65d1a1814f9a5', description='null'}-localhost:27017][SLF4JLogger.java:71] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 25]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=2308500}
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:15,668 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:15,785 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:16,091 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:16,091 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:16,762 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:16,763 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:17,325 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,351 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,352 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,352 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,353 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,353 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,354 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,354 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,619 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,624 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,631 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,640 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1629861198637 with initial instances count: 0
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,653 INFO [main][EurekaServiceRegistry.java:42] - Registering application ACCOUNT-SERVICE with eureka with status UP
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,655 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1629861198654, current=UP, previous=STARTING]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,658 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,659 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_ACCOUNT-SERVICE/account-service:192.168.137.1:53030: registering service...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,672 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,738 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:18,786 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_ACCOUNT-SERVICE/account-service:192.168.137.1:53030 - registration status: 204
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:19,174 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53030"]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:19,227 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53030 (http) with context path '/account'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:19,229 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53030
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:19,234 INFO [main][StartupInfoLogger.java:59] - Started Wanxinp2pAccountServiceApplication in 45.37 seconds (JVM running for 50.476)
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:21,094 INFO [RMI TCP Connection(16)-192.168.137.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:21,094 INFO [RMI TCP Connection(16)-192.168.137.1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:21,120 INFO [RMI TCP Connection(16)-192.168.137.1][FrameworkServlet.java:546] - Completed initialization in 25 ms
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,625 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,625 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,625 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,626 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,626 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,626 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:964] - Application version is -1: false
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,626 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:13:48,663 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:15:19,173 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:16:19,186 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:17:19,188 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:18:18,359 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:18:19,192 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:19:19,195 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:20:19,197 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:21:19,201 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:22:19,202 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:23:18,360 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:23:19,205 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:24:19,207 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:25:19,208 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:26:19,215 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:27:19,218 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:28:18,361 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:28:19,220 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:29:19,224 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:29:51,123 INFO [http-nio-53030-exec-7][AccountServiceImpl.java:93] - execute confirmRegister
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:30:19,227 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:31:19,230 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:32:19,231 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:33:18,362 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:33:19,234 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:34:19,238 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:35:19,243 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:36:19,247 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:37:19,249 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:38:18,363 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:38:19,254 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:39:19,256 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:40:19,258 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:41:19,261 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:42:19,263 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:43:18,367 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:43:19,267 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:44:19,268 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:45:19,271 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:46:19,274 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:47:19,276 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:48:18,368 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:48:19,277 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:48:30,186 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:48:32,090 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:49:19,282 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:50:19,284 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:50:30,180 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:50:32,404 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:51:19,285 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:51:47,915 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 1 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: Connection reset]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:51:49,917 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 2 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:51:52,918 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 4 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:51:57,921 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 8 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:00,220 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:02,092 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:06,927 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 16 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:19,289 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:23,930 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 32 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:30,182 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:32,086 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:45,746 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: application, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/application?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bapplication%22%3A457%7D%7D&releaseKey=20210812023524-b1633a959cd96a16 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:46,751 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-boot-druid, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-boot-druid?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-boot-druid%22%3A473%2C%22account-service%2Bdefault%2Bmicro_service.spring-boot-druid%22%3A478%7D%7D&releaseKey=20210824055558-41863a959c81ade8%2B20210824051744-02cd3a959c81ade3 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:47,753 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-boot-http, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-boot-http?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-boot-http%22%3A399%2C%22account-service%2Bdefault%2Bmicro_service.spring-boot-http%22%3A437%7D%7D&releaseKey=20210808015225-920a3a959c661cc5%2B20190714173524-5351e374105b7a86 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:48,755 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-eureka, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-eureka?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.spring-eureka%22%3A357%2C%22common-template%2Bdefault%2Bmicro_service.spring-eureka%22%3A431%7D%7D&releaseKey=20190715120722-61dfdc17e28c579b [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:49,756 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-hystrix, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-hystrix?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-hystrix%22%3A5%2C%22account-service%2Bdefault%2Bmicro_service.spring-hystrix%22%3A359%7D%7D&releaseKey=20190505105232-227d48b816809daf [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:50,760 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-ribbon, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-ribbon?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.spring-ribbon%22%3A360%2C%22common-template%2Bdefault%2Bmicro_service.spring-ribbon%22%3A6%7D%7D&releaseKey=20190505105409-f73c48b816809db0 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:51,763 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-boot-redis, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-boot-redis?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-boot-redis%22%3A10%2C%22account-service%2Bdefault%2Bmicro_service.spring-boot-redis%22%3A362%7D%7D&releaseKey=20190505112013-234648b816809db4 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:52,765 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.mybatis-plus, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.mybatis-plus?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.mybatis-plus%22%3A443%2C%22common-template%2Bdefault%2Bmicro_service.mybatis-plus%22%3A444%7D%7D&releaseKey=20210808214903-c29b3a959c4aec8e%2B20210809000545-83e23a959c4aec8f [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:53,767 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-rocketmq, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-rocketmq?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.spring-rocketmq%22%3A364%2C%22common-template%2Bdefault%2Bmicro_service.spring-rocketmq%22%3A458%7D%7D&releaseKey=20210812060205-aede3a959c4c87d4 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:54,770 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-hmily, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-cloud-hmily?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-hmily%22%3A452%2C%22account-service%2Bdefault%2Bmicro_service.spring-cloud-hmily%22%3A450%7D%7D&releaseKey=20210811003846-f5803a959c4304f7%2B20210811004647-b6c73a959c4304f9 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:52:56,932 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 64 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:53:00,193 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:53:02,097 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:53:18,370 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:53:19,293 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:53:30,183 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:53:32,095 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:54:00,188 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:54:01,937 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:54:02,091 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:54:19,306 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:54:30,182 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:54:32,097 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:55:00,206 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:55:02,108 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:55:19,312 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:55:30,187 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:55:32,105 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:56:00,191 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:56:02,089 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:56:02,940 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:56:19,316 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:56:33,909 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:56:35,812 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:03,938 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:05,832 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:23,042 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:33,902 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:35,810 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:49,467 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: application, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/application?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bapplication%22%3A457%7D%7D&releaseKey=20210812023524-b1633a959cd96a16 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:50,470 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-boot-druid, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-boot-druid?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-boot-druid%22%3A473%2C%22account-service%2Bdefault%2Bmicro_service.spring-boot-druid%22%3A478%7D%7D&releaseKey=20210824055558-41863a959c81ade8%2B20210824051744-02cd3a959c81ade3 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:51,470 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-boot-http, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-boot-http?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-boot-http%22%3A399%2C%22account-service%2Bdefault%2Bmicro_service.spring-boot-http%22%3A437%7D%7D&releaseKey=20210808015225-920a3a959c661cc5%2B20190714173524-5351e374105b7a86 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:52,472 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-eureka, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-eureka?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.spring-eureka%22%3A357%2C%22common-template%2Bdefault%2Bmicro_service.spring-eureka%22%3A431%7D%7D&releaseKey=20190715120722-61dfdc17e28c579b [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:53,473 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-hystrix, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-hystrix?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-hystrix%22%3A5%2C%22account-service%2Bdefault%2Bmicro_service.spring-hystrix%22%3A359%7D%7D&releaseKey=20190505105232-227d48b816809daf [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:54,474 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-ribbon, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-ribbon?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.spring-ribbon%22%3A360%2C%22common-template%2Bdefault%2Bmicro_service.spring-ribbon%22%3A6%7D%7D&releaseKey=20190505105409-f73c48b816809db0 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:55,476 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-boot-redis, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-boot-redis?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-boot-redis%22%3A10%2C%22account-service%2Bdefault%2Bmicro_service.spring-boot-redis%22%3A362%7D%7D&releaseKey=20190505112013-234648b816809db4 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:56,478 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.mybatis-plus, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.mybatis-plus?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.mybatis-plus%22%3A443%2C%22common-template%2Bdefault%2Bmicro_service.mybatis-plus%22%3A444%7D%7D&releaseKey=20210808214903-c29b3a959c4aec8e%2B20210809000545-83e23a959c4aec8f [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:57,478 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-rocketmq, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-rocketmq?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22account-service%2Bdefault%2Bmicro_service.spring-rocketmq%22%3A364%2C%22common-template%2Bdefault%2Bmicro_service.spring-rocketmq%22%3A458%7D%7D&releaseKey=20210812060205-aede3a959c4c87d4 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:57:58,478 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: account-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-hmily, url: http://192.168.85.131:8080/configs/account-service/DEFAULT/micro_service.spring-cloud-hmily?ip=192.168.137.1&messages=%7B%22details%22%3A%7B%22common-template%2Bdefault%2Bmicro_service.spring-cloud-hmily%22%3A452%2C%22account-service%2Bdefault%2Bmicro_service.spring-cloud-hmily%22%3A450%7D%7D&releaseKey=20210811003846-f5803a959c4304f7%2B20210811004647-b6c73a959c4304f9 [Cause: Could not complete get operation [Cause: connect timed out]]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:58:03,921 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:58:05,818 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:58:07,667 WARN [Apollo-RemoteConfigLongPollService-1][RemoteConfigLongPollService.java:193] - Long polling failed, will retry in 120 seconds. appId: account-service, cluster: DEFAULT, namespaces: micro_service.spring-boot-redis+micro_service.spring-boot-http+micro_service.mybatis-plus+micro_service.spring-cloud-hmily+application+micro_service.spring-rocketmq+micro_service.spring-ribbon+micro_service.spring-boot-druid+micro_service.spring-eureka+micro_service.spring-hystrix, long polling url: http://192.168.85.131:8080/notifications/v2?cluster=DEFAULT&appId=account-service&ip=192.168.137.1&notifications=%5B%7B%22namespaceName%22%3A%22micro_service.mybatis-plus%22%2C%22notificationId%22%3A444%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-cloud-hmily%22%2C%22notificationId%22%3A452%7D%2C%7B%22namespaceName%22%3A%22application%22%2C%22notificationId%22%3A457%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-rocketmq%22%2C%22notificationId%22%3A458%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-ribbon%22%2C%22notificationId%22%3A360%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-druid%22%2C%22notificationId%22%3A478%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-redis%22%2C%22notificationId%22%3A362%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-eureka%22%2C%22notificationId%22%3A431%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-hystrix%22%2C%22notificationId%22%3A359%7D%2C%7B%22namespaceName%22%3A%22micro_service.spring-boot-http%22%2C%22notificationId%22%3A437%7D%5D, reason: Could not complete get operation [Cause: connect timed out]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:58:22,093 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:58:23,050 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:58:33,911 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:58:35,828 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:59:03,955 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:59:05,864 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:59:23,060 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:59:33,916 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-25 11:59:35,822 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[] result: true

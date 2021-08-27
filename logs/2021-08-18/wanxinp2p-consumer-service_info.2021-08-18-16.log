@@ -1,0 +1,567 @@
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:00:34,158 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:00:34,438 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:00:47,612 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:01:34,159 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:01:34,440 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:01:47,614 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:02:34,161 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:02:34,442 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:02:46,544 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:02:47,615 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:03:34,163 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:03:34,444 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:03:47,617 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:04:34,164 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:04:34,446 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:04:47,618 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:05:34,166 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:05:34,447 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:05:47,622 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:06:34,167 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:06:34,451 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:06:47,623 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:07:34,169 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:07:34,453 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:07:46,544 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:07:47,625 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:08:34,170 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:08:34,454 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:08:47,627 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:09:34,172 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:09:34,456 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:09:47,628 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:10:34,173 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:10:34,457 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:10:47,630 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:11:34,175 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:11:34,477 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:11:47,631 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:12:34,176 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:12:34,485 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:12:46,546 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:12:47,634 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:13:34,181 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:13:34,487 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:13:47,635 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:14:34,182 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:14:34,488 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:14:47,637 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:15:34,184 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:15:34,490 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:15:47,638 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:16:34,186 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:16:34,492 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:16:47,640 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:17:34,187 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:17:34,493 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:17:46,548 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:17:47,641 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:18:34,188 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:18:34,495 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:18:47,643 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:19:34,190 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:19:34,497 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:19:47,645 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:34,191 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:34,498 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:45,449 INFO [Thread-68][HmilyInitServiceImpl.java:66] - hmily shutdown now
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:45,465 INFO [Thread-89][EurekaServiceRegistry.java:65] - Unregistering application CONSUMER-SERVICE with eureka with status DOWN
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:45,465 WARN [Thread-89][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1629274845465, current=DOWN, previous=UP]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:45,466 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:172.19.130.1:53050: registering service...
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:45,471 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:172.19.130.1:53050 - registration status: 204
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:45,512 INFO [Thread-89][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:46,656 INFO [Thread-89][DruidDataSource.java:1885] - {dataSource-1} closing ...
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:46,666 INFO [Thread-89][DruidDataSource.java:1955] - {dataSource-1} closed
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:46,680 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[192.168.85.131:9876] result: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:46,680 INFO [Thread-89][DisposableBeanAdapter.java:265] - Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:46,680 INFO [Thread-89][DisposableBeanAdapter.java:347] - Destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:46,688 INFO [Thread-89][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:47,646 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:49,689 INFO [Thread-89][DiscoveryClient.java:922] - Unregistering ...
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:49,690 WARN [DiscoveryClient-1][TimedSupervisorTask.java:88] - task supervisor shutting down, can't accept the task
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:49,695 INFO [Thread-89][DiscoveryClient.java:924] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:172.19.130.1:53050 - deregister  status: 200
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:20:49,705 INFO [Thread-89][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:04,388 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to consumer-service by app.id property from System Property
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:04,393 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:04,431 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:04,434 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://192.168.85.131:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:11,411 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:12,728 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:12,731 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:12,759 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:12,874 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:12,970 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:13,134 INFO [main][GenericScope.java:294] - BeanFactory id=09c61fa8-dde8-31eb-be9c-26a62fa10b7b
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:13,155 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:13,197 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'cn.itcast.wanxinp2p.consumer.agent.AccountApiAgent' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:13,199 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'cn.itcast.wanxinp2p.consumer.agent.DepositoryAgentApiAgent' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:13,217 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:13,223 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$a1f696a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:13,233 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,272 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,274 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$d4f4073c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,278 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$8740c955] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,280 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$$EnhancerBySpringCGLIB$$4257af44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,286 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,289 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,293 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration$$EnhancerBySpringCGLIB$$69232672] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,299 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,300 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$$EnhancerBySpringCGLIB$$b6ffa4cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,333 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,333 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,338 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,340 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:15,366 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:20,968 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:20,970 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,020 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$796087ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,172 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,185 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,186 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'hmilyFeignConfiguration' of type [org.dromara.hmily.springcloud.configuration.HmilyFeignConfiguration$$EnhancerBySpringCGLIB$$a7b1a077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,200 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$957a8aa8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,596 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53050 (http)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,620 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53050"]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,630 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,630 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,638 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;D:\Oracle\bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\python38;D:\MySQL\mysql-8.0.19-winx64;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\MySQL\mysql-5.6.47-winx64\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\python3.8;D:\python3.8\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\jdk-14.0.2\bin;D:\Program Files (x86)\Git\cmd;D:\jdk1.8.0_91\bin;C:\MinGW\bin;C:\Program Files\Pandoc\;D:\apache-maven-3.6.3\bin;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;D:\nodejs9.4\;D:\nodejs9.4\npm_modules;D:\matlab\runtime\win64;D:\matlab\bin;D:\matlab\polyspace\bin;C:\Program Files\erl9.3\bin;D:\ffmpeg-20180227-fa0c9d6-win64-static\bin;C:\Program Files\OpenSSL-Win64\bin;D:\rocketmq-all-4.5.2-bin-release\bin;D:\Ruby25\bin;C:\Users\suxiang\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Microsoft VS Code\bin;D:\MySQL\mysql-8.0.19-winx64\bin;D:\python3.8;D:\Program Files (x86)\WebStorm 2021.1.1\bin;;C:\Program Files (x86)\GitHub CLI\;D:\Program Files (x86)\PyCharm 2021.1.1\bin;;D:\Program Files (x86)\IntelliJ IDEA 2021.1.1\bin;;D:\Program Files (x86)\CLion 2020.1\bin;;C:\Users\suxiang\AppData\Local\GitHubDesktop\bin;C:\Users\suxiang\AppData\Roaming\npm;;.]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,855 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:21,855 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 10427 ms
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:22,014 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:22,015 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:22,028 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6f0ae0ee
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:22,163 INFO [main][DruidDataSourceAutoConfigure.java:56] - Init DruidDataSource
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:22,457 INFO [main][DruidDataSource.java:1002] - {dataSource-1} inited
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:25,183 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:25,756 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:25,784 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:25,807 INFO [main][HmilyLogo.java:49] - 
+
+
+    __  __          _ __     
+   / / / /___ ___  (_) /_  __
+  / /_/ / __ `__ \/ / / / / /
+ / __  / / / / / / / / /_/ / 
+/_/ /_/_/ /_/ /_/_/_/\__, /  
+                    /____/   
+
+ :: Hmily :: (v2.0.5-RELEASE)
+
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:25,821 INFO [main][AutowiredAnnotationBeanPostProcessor.java:342] - Inconsistent constructor declaration on bean with name 'hmilyTransactionSelfRecoveryScheduled': single autowire-marked constructor flagged as optional - this constructor is effectively required since there is no default constructor to fall back to: public org.dromara.hmily.core.schedule.HmilyTransactionSelfRecoveryScheduled(org.dromara.hmily.common.config.HmilyConfig)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:28,075 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:28,191 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:28,203 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:28,204 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:28,357 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:31,372 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:31,621 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:31,669 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:31,833 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:31,833 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:31,973 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:31,973 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:32,249 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,243 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,244 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,244 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,244 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,245 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,245 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,245 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,435 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,438 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,441 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,444 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1629274893443 with initial instances count: 6
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,447 INFO [main][EurekaServiceRegistry.java:42] - Registering application CONSUMER-SERVICE with eureka with status UP
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,448 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1629274893448, current=UP, previous=STARTING]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,451 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,452 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:172.19.130.1:53050: registering service...
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,470 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,498 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_CONSUMER-SERVICE/consumer-service:172.19.130.1:53050 - registration status: 204
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,519 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,675 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: handleUsingGET_1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,676 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: handleUsingGET_2
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,677 INFO [main][CachingOperationNameGenerator.java:40] - Generating unique operation named: handleUsingGET_3
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,708 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53050"]
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,729 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53050 (http) with context path '/consumer'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,730 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53050
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:33,733 INFO [main][StartupInfoLogger.java:59] - Started ConsumerService in 36.293 seconds (JVM running for 41.369)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:36,100 INFO [RMI TCP Connection(2)-172.19.130.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:36,100 INFO [RMI TCP Connection(2)-172.19.130.1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:21:36,117 INFO [RMI TCP Connection(2)-172.19.130.1][FrameworkServlet.java:546] - Completed initialization in 17 ms
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:23:26,628 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:23:26,734 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:23:33,707 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:24:26,639 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:24:26,736 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:24:33,709 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:25:26,640 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:25:26,737 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:25:33,710 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:26:26,642 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:26:26,738 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:26:33,247 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:26:33,712 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:27:26,644 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:27:26,740 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:27:33,714 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:28:26,645 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:28:26,742 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:28:33,718 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:29:26,647 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:29:26,743 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:29:33,719 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:29:48,089 WARN [http-nio-53050-exec-3][AbstractSerializableParameter.java:421] - Illegal DefaultValue  for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3905)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3219)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:03,420 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE ID=? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:03,488 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==> Parameters: 9(Long)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:03,502 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:14,014 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:14,016 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:14,018 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:15,417 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:15,418 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:15,421 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:26,649 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:26,745 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:27,189 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:27,190 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:27,192 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:30:33,722 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:10,777 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:10,777 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:10,780 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:26,651 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:26,747 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:30,232 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:30,233 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:30,235 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:33,248 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:33,723 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:39,475 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:39,476 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:31:39,478 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:15,752 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:15,753 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:15,755 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:16,911 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:16,912 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:16,914 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:18,410 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:18,410 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:18,413 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:26,653 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:26,749 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:33,725 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:37,698 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:37,699 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:37,701 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:50,395 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:50,395 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:50,397 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:57,287 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:57,288 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:32:57,290 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:02,311 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:02,311 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:02,314 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:04,211 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:04,212 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:04,214 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:26,655 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:26,751 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:33,726 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:44,942 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:44,944 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:33:44,952 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:00,905 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:00,906 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:00,908 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:06,679 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:06,680 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:06,681 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:08,744 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:08,744 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:08,747 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:11,387 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:11,387 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:11,390 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:23,674 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:23,675 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:23,678 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:26,656 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:26,752 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:33,728 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:45,404 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:45,405 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:45,408 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:52,040 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:52,040 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:52,043 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:54,968 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:54,969 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:34:54,971 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:35:26,658 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:35:26,755 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:35:33,729 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:36:26,659 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:36:26,756 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:36:33,249 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:36:33,731 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:37:26,661 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:37:26,757 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:37:33,733 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:38:26,663 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:38:26,759 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:38:33,734 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:39:26,664 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:39:26,760 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:39:33,736 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:39:57,648 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:39:57,648 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:39:57,650 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:01,737 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:01,738 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:01,740 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:05,210 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:05,210 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:05,213 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:06,844 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:06,845 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:06,847 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:11,122 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:11,123 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:11,124 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:18,083 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:18,084 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:18,086 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:26,666 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:26,762 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:40:33,738 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:26,667 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:26,763 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:32,879 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:32,879 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:32,881 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:33,249 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:33,740 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:42,047 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:42,048 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:41:42,049 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:42:26,669 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:42:26,766 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:42:33,742 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:26,672 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:26,767 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:33,743 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:40,201 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:40,202 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:40,203 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:52,280 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:52,282 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:43:52,285 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:00,259 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:00,260 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:00,261 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:26,673 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:26,768 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:33,745 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:37,528 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:37,528 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:44:37,530 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:02,435 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:02,436 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:02,438 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:26,675 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:26,770 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:30,806 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:30,808 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:30,810 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:33,747 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:56,145 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:56,145 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:56,147 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:58,653 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:58,653 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:45:58,655 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:46:05,902 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:46:05,902 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:46:05,904 DEBUG [http-nio-53050-exec-1][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:46:26,677 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:46:26,772 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:46:33,250 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:46:33,750 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:47:26,678 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:47:26,774 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:47:33,752 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:47:58,888 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:47:58,892 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:47:58,894 DEBUG [http-nio-53050-exec-5][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:48:26,680 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:48:26,775 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:48:33,753 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:48:43,334 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:48:43,334 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:48:43,335 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:49:26,682 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:49:26,777 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:49:33,755 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:12,956 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:12,957 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:12,959 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:18,705 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:18,706 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:18,707 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:26,683 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:26,778 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:28,890 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:28,891 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:28,892 DEBUG [http-nio-53050-exec-9][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:31,387 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:31,387 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:31,389 DEBUG [http-nio-53050-exec-7][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:33,756 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:34,170 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:34,170 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:50:34,172 DEBUG [http-nio-53050-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:51:26,685 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:51:26,780 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:51:33,251 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:51:33,758 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:52:13,115 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:52:13,116 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:52:13,117 DEBUG [http-nio-53050-exec-2][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:52:26,687 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:52:26,781 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:52:33,759 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:53:26,689 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:53:26,783 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:53:33,760 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:54:26,690 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:54:26,785 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:54:33,762 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:55:26,692 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:55:26,794 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:55:33,763 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:56:26,694 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:56:26,805 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:56:33,251 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:56:33,765 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:57:26,696 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:57:26,808 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:57:28,265 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:57:28,266 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:57:28,268 DEBUG [http-nio-53050-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:57:33,766 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:17,171 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE mobile = ? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:17,172 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 18678544100(String)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:17,177 DEBUG [http-nio-53050-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:24,782 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE ID=? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:24,782 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 9(Long)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:24,785 DEBUG [http-nio-53050-exec-3][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:26,698 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:26,809 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:33,767 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:49,347 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,USERNAME,FULLNAME,ID_NUMBER,USER_NO,MOBILE,USER_TYPE,ROLE,AUTH_LIST,IS_BIND_CARD,STATUS,LOAN_AMOUNT,REQUEST_NO FROM consumer WHERE ID=? 
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:49,348 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - ==> Parameters: 9(Long)
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:58:49,349 DEBUG [http-nio-53050-exec-6][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:59:26,700 INFO [hmilyTransaction-hmily-transaction-self-recovery-26][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:59:26,811 INFO [hmilyTransaction-hmily-transaction-self-recovery-52][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-consumer-service][${env:SERVER_PORT}] 2021-08-18 16:59:33,769 INFO [hmilyTransaction-hmily-transaction-self-recovery-78][LogUtil.java:87] - self recovery execute delayTime:60

@@ -2,7 +2,9 @@ package cn.itcast.wanxinp2p.depository.service;
 
 import cn.itcast.wanxinp2p.api.account.model.ConsumerRequest;
 import cn.itcast.wanxinp2p.api.depository.model.*;
+import cn.itcast.wanxinp2p.api.transaction.model.ModifyProjectStatusDTO;
 import cn.itcast.wanxinp2p.api.transaction.model.ProjectDTO;
+import cn.itcast.wanxinp2p.api.transaction.model.UserAutoPreTransactionRequest;
 import cn.itcast.wanxinp2p.common.cache.Cache;
 import cn.itcast.wanxinp2p.common.domain.BusinessException;
 import cn.itcast.wanxinp2p.common.domain.StatusCode;
@@ -82,6 +84,66 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
         return create_project;
     }
 
+    @Override
+    public DepositoryResponseDTO<DepositoryBaseResponse> userAutoPreTransaction(UserAutoPreTransactionRequest userAutoPreTransactionRequest) {
+        //1.保存交易记录(实现幂等性)
+        DepositoryRecord depositoryRecord = new DepositoryRecord(userAutoPreTransactionRequest.getRequestNo(),userAutoPreTransactionRequest.getBizType(),"UserAutoPreTransactionRequest",userAutoPreTransactionRequest.getId());
+        DepositoryResponseDTO<DepositoryBaseResponse> depositoryResponseDTO = handleIdempotent(depositoryRecord);
+        if(depositoryResponseDTO!=null){
+            return depositoryResponseDTO;
+        }
+        depositoryRecord = getEntityByRequestNo(userAutoPreTransactionRequest.getRequestNo());
+        //2.签名
+        String jsonString = JSON.toJSONString(userAutoPreTransactionRequest);
+        String reqData = EncryptUtil.encodeUTF8StringBase64(jsonString);
+        //3.发送数据到银行存管系统
+        String url = configService.getDepositoryUrl() + "/service";
+        // 向银行存管系统发送请求
+        return sendHttpGet("USER_AUTO_PRE_TRANSACTION", url, reqData,
+                depositoryRecord);
+    }
+
+    @Override
+    public DepositoryResponseDTO<DepositoryBaseResponse> confirmLoan(LoanRequest loanRequest) {
+        DepositoryRecord depositoryRecord = new DepositoryRecord(loanRequest.getRequestNo(),DepositoryRequestTypeCode.FULL_LOAN.getCode(),"LoanRequest", loanRequest.getId());
+        //幂等性实现
+        DepositoryResponseDTO<DepositoryBaseResponse> responseDTO = handleIdempotent(depositoryRecord);
+
+        if(responseDTO != null){
+            return responseDTO;
+        }
+
+        depositoryRecord = getEntityByRequestNo(loanRequest.getRequestNo());
+
+        //签名
+        String jsonString = JSON.toJSONString(loanRequest);
+        String reqData = EncryptUtil.encodeUTF8StringBase64(jsonString);
+
+        //发送数据到银行存管系统
+        String url = configService.getDepositoryUrl() + "/service";
+        return sendHttpGet("CONFIRM_LOAN",url,reqData,depositoryRecord);
+    }
+
+    @Override
+    public DepositoryResponseDTO<DepositoryBaseResponse> modifyProjectStatus(ModifyProjectStatusDTO modifyProjectStatusDTO) {
+        DepositoryRecord depositoryRecord = new DepositoryRecord(modifyProjectStatusDTO.getRequestNo(),DepositoryRequestTypeCode.MODIFY_STATUS.getCode(), "Project", modifyProjectStatusDTO.getId());
+        //幂等性实现
+        DepositoryResponseDTO<DepositoryBaseResponse> responseDTO = handleIdempotent(depositoryRecord);
+        if(responseDTO!=null){
+            return responseDTO;
+        }
+
+        depositoryRecord = getEntityByRequestNo(modifyProjectStatusDTO.getRequestNo());
+
+        //签名
+        String jsonString = JSON.toJSONString(modifyProjectStatusDTO);
+        String reqData = EncryptUtil.encodeUTF8StringBase64(jsonString);
+
+        //发送数据到银行存管系统
+        String url = configService.getDepositoryUrl() + "/service";
+        return sendHttpGet("MODIFY_PROJECT",url,reqData,depositoryRecord);
+    }
+
     /**
      * 实现幂等性
      * @param depositoryRecord
@@ -130,9 +192,9 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
                 .eq(DepositoryRecord::getRequestNo, requestNo));
     }
 
-    private DepositoryResponseDTO<DepositoryBaseResponse> sendHttpGet(
-            String serviceName, String url, String reqData,
-            DepositoryRecord depositoryRecord){
+
+
+    private DepositoryResponseDTO<DepositoryBaseResponse> sendHttpGet(String serviceName, String url, String reqData, DepositoryRecord depositoryRecord){
         // 银行存管系统接收的4大参数: serviceName, platformNo, reqData, signature
         // signature会在okHttp拦截器(SignatureInterceptor)中处理
         // 平台编号
@@ -140,8 +202,7 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
         // redData签名
         // 发送请求, 获取结果, 如果检验签名失败, 拦截器会在结果中放入: "signature", "false"
         String responseBody = okHttpService
-                .doSyncGet(url + "?serviceName=" + serviceName + "&platformNo=" +
-                        platformNo + "&reqData=" + reqData);
+                .doSyncGet(url + "?serviceName=" + serviceName + "&platformNo=" + platformNo + "&reqData=" + reqData);
         DepositoryResponseDTO<DepositoryBaseResponse> depositoryResponse = JSON
                 .parseObject(responseBody, new TypeReference<DepositoryResponseDTO<DepositoryBaseResponse>>() {});
 

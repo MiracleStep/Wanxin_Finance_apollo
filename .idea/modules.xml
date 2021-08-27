@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/wanxinp2p-depository-agent-service/wanxinp2p-depository-agent-service.iml" filepath="$PROJECT_DIR$/wanxinp2p-depository-agent-service/wanxinp2p-depository-agent-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanxinp2p-discover-server/wanxinp2p-discover-server.iml" filepath="$PROJECT_DIR$/wanxinp2p-discover-server/wanxinp2p-discover-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanxinp2p-gateway-server/wanxinp2p-gateway-server.iml" filepath="$PROJECT_DIR$/wanxinp2p-gateway-server/wanxinp2p-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wanxinp2p-repayment-service/wanxinp2p-repayment-service.iml" filepath="$PROJECT_DIR$/wanxinp2p-repayment-service/wanxinp2p-repayment-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanxinp2p-transaction-service/wanxinp2p-transaction-service.iml" filepath="$PROJECT_DIR$/wanxinp2p-transaction-service/wanxinp2p-transaction-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanxinp2p-uaa-service/wanxinp2p-uaa-service.iml" filepath="$PROJECT_DIR$/wanxinp2p-uaa-service/wanxinp2p-uaa-service.iml" />
     </modules>

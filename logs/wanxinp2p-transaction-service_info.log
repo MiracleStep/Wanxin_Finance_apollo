@@ -1,440 +1,443 @@
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:07,943 ERROR [http-nio-53060-exec-4][GlobalExceptionHandler.java:45] - 【系统异常】{}
-java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:73)
-	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
-	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
-	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
-	at com.sun.proxy.$Proxy161.queryProjectIndex(Unknown Source)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl.queryProjects(ProjectServiceImpl.java:207)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$FastClassBySpringCGLIB$$997f0e9f.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$EnhancerBySpringCGLIB$$f2758f4d.queryProjects(<generated>)
-	at cn.itcast.wanxinp2p.transaction.controller.TransactionController.queryProjects(TransactionController.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
-	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
-	at rx.Subscriber.setProducer(Subscriber.java:209)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.Observable.subscribe(Observable.java:10423)
-	at rx.Observable.subscribe(Observable.java:10390)
-	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
-	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
-	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
-	... 73 more
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:08,594 ERROR [http-nio-53060-exec-5][GlobalExceptionHandler.java:45] - 【系统异常】{}
-java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:73)
-	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
-	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
-	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
-	at com.sun.proxy.$Proxy161.queryProjectIndex(Unknown Source)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl.queryProjects(ProjectServiceImpl.java:207)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$FastClassBySpringCGLIB$$997f0e9f.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$EnhancerBySpringCGLIB$$f2758f4d.queryProjects(<generated>)
-	at cn.itcast.wanxinp2p.transaction.controller.TransactionController.queryProjects(TransactionController.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
-	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
-	at rx.Subscriber.setProducer(Subscriber.java:209)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.Observable.subscribe(Observable.java:10423)
-	at rx.Observable.subscribe(Observable.java:10390)
-	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
-	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
-	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
-	... 73 more
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:09,050 ERROR [http-nio-53060-exec-6][GlobalExceptionHandler.java:45] - 【系统异常】{}
-java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:73)
-	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
-	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
-	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
-	at com.sun.proxy.$Proxy161.queryProjectIndex(Unknown Source)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl.queryProjects(ProjectServiceImpl.java:207)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$FastClassBySpringCGLIB$$997f0e9f.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$EnhancerBySpringCGLIB$$f2758f4d.queryProjects(<generated>)
-	at cn.itcast.wanxinp2p.transaction.controller.TransactionController.queryProjects(TransactionController.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
-	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
-	at rx.Subscriber.setProducer(Subscriber.java:209)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.Observable.subscribe(Observable.java:10423)
-	at rx.Observable.subscribe(Observable.java:10390)
-	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
-	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
-	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
-	... 73 more
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:43,951 ERROR [http-nio-53060-exec-7][GlobalExceptionHandler.java:45] - 【系统异常】{}
-java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:73)
-	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:108)
-	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:78)
-	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
-	at com.sun.proxy.$Proxy161.queryProjectIndex(Unknown Source)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl.queryProjects(ProjectServiceImpl.java:207)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$FastClassBySpringCGLIB$$997f0e9f.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
-	at cn.itcast.wanxinp2p.transaction.service.ProjectServiceImpl$$EnhancerBySpringCGLIB$$f2758f4d.queryProjects(<generated>)
-	at cn.itcast.wanxinp2p.transaction.controller.TransactionController.queryProjects(TransactionController.java:92)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
-	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: content-search-service
-	at com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:483)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:184)
-	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
-	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
-	at rx.Observable.unsafeSubscribe(Observable.java:10327)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
-	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
-	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
-	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
-	at rx.Subscriber.setProducer(Subscriber.java:209)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
-	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
-	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
-	at rx.Observable.subscribe(Observable.java:10423)
-	at rx.Observable.subscribe(Observable.java:10390)
-	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:443)
-	at rx.observables.BlockingObservable.single(BlockingObservable.java:340)
-	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:112)
-	at org.springframework.cloud.openfeign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:65)
-	... 73 more
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,209 INFO [Thread-77][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,210 INFO [Thread-65][EurekaServiceRegistry.java:65] - Unregistering application TRANSACTION-SERVICE with eureka with status DOWN
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,211 WARN [Thread-65][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1629259248211, current=DOWN, previous=UP]
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,211 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_TRANSACTION-SERVICE/transaction-service:172.19.130.1:53060: registering service...
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,214 INFO [Thread-65][QuartzScheduler.java:585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,216 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_TRANSACTION-SERVICE/transaction-service:172.19.130.1:53060 - registration status: 204
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,216 INFO [Thread-65][SchedulerFactoryBean.java:844] - Shutting down Quartz Scheduler
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,216 INFO [Thread-65][QuartzScheduler.java:666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,216 INFO [Thread-65][QuartzScheduler.java:585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,217 INFO [Thread-65][QuartzScheduler.java:740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,219 INFO [Thread-65][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,224 INFO [Thread-65][ShutdownEnabledTimer.java:67] - Shutdown hook removed for: NFLoadBalancer-PingTimer-content-search-service
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,225 INFO [Thread-65][ShutdownEnabledTimer.java:72] - Exception caught (might be ok if at shutdown)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,268 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,277 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,278 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,278 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,279 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,280 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,280 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,330 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,335 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,343 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,345 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,346 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,347 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,348 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,349 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,351 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,358 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,366 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,367 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,367 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,368 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,369 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,370 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:14,372 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,829 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,837 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,837 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,838 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,839 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,840 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,841 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,845 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,851 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,859 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,861 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,862 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,863 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,875 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,875 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,878 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,884 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,891 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,892 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,893 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,893 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,894 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,895 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:26,897 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,471 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,477 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,478 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,478 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,479 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,480 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,480 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,483 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,486 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,492 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,493 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,494 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,495 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,495 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,495 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,497 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,501 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,510 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,511 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,512 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,512 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,513 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,514 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:31,517 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:47,979 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:47,985 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:47,986 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:47,987 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:47,988 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=168, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_USERNAME, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ID, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=TENDER_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NAME, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_PERIOD, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ANNUAL_RATE, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:47,989 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:47,989 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:48,002 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,236 DEBUG [http-nio-53060-exec-3][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,245 DEBUG [http-nio-53060-exec-3][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,246 INFO [http-nio-53060-exec-3][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,246 INFO [http-nio-53060-exec-3][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,246 INFO [http-nio-53060-exec-3][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=168, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_USERNAME, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ID, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=TENDER_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NAME, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_PERIOD, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ANNUAL_RATE, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,247 INFO [http-nio-53060-exec-3][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,248 INFO [http-nio-53060-exec-3][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:50,251 DEBUG [http-nio-53060-exec-3][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,467 DEBUG [http-nio-53060-exec-5][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,472 DEBUG [http-nio-53060-exec-5][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,472 INFO [http-nio-53060-exec-5][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,472 INFO [http-nio-53060-exec-5][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,473 INFO [http-nio-53060-exec-5][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=168, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_USERNAME, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ID, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=TENDER_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NAME, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_PERIOD, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ANNUAL_RATE, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,473 INFO [http-nio-53060-exec-5][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,473 INFO [http-nio-53060-exec-5][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:00:59,476 DEBUG [http-nio-53060-exec-5][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,617 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,624 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,624 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,625 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,625 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,627 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,627 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,657 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,662 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,671 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,672 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,673 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,673 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,674 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,675 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,677 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,684 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,690 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,691 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,692 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,692 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,692 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,693 INFO [http-nio-53060-exec-9][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:33,695 DEBUG [http-nio-53060-exec-9][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,327 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,335 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,336 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,337 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,338 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,339 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,340 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,345 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,349 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,360 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,361 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,362 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,363 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,364 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,365 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,368 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,375 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,383 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,385 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,385 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,386 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,387 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,388 INFO [http-nio-53060-exec-2][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:44,391 DEBUG [http-nio-53060-exec-2][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,200 DEBUG [http-nio-53060-exec-1][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,217 DEBUG [http-nio-53060-exec-1][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,217 INFO [http-nio-53060-exec-1][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,218 INFO [http-nio-53060-exec-1][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,218 INFO [http-nio-53060-exec-1][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=168, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_USERNAME, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ID, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=TENDER_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NAME, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_PERIOD, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_ANNUAL_RATE, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,219 INFO [http-nio-53060-exec-1][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,219 INFO [http-nio-53060-exec-1][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,CONSUMER_USERNAME,USER_NO,PROJECT_ID,PROJECT_NO,AMOUNT,TENDER_STATUS,CREATE_DATE,REQUEST_NO,STATUS,PROJECT_NAME,PROJECT_PERIOD,PROJECT_ANNUAL_RATE  FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:02:49,222 DEBUG [http-nio-53060-exec-1][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,034 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,041 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,042 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,042 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,042 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,043 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,044 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,047 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,052 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,058 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,060 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,060 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,061 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,061 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,062 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,063 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,068 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,075 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,076 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,076 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,077 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,078 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,078 INFO [http-nio-53060-exec-8][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:11,080 DEBUG [http-nio-53060-exec-8][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,786 WARN [Apollo-RemoteConfigRepository-1][RemoteConfigRepository.java:194] - Load config failed, will retry in 1 SECONDS. appId: transaction-service, cluster: DEFAULT, namespaces: micro_service.spring-cloud-feign
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,852 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,856 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,856 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,857 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,857 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,857 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,857 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,859 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,863 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,868 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,869 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,869 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,869 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,869 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,869 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,871 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,875 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,879 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,880 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,880 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,881 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,881 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,882 INFO [http-nio-53060-exec-10][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:28,883 DEBUG [http-nio-53060-exec-10][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:29,791 WARN [Apollo-RemoteConfigRepository-1][AbstractConfigRepository.java:26] - Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Load Apollo Config failed - appId: transaction-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, url: http://192.168.85.131:8080/configs/transaction-service/DEFAULT/micro_service.spring-cloud-feign?ip=192.168.0.103&messages=%7B%22details%22%3A%7B%22transaction-service%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A285%2C%22common-template%2Bdefault%2Bmicro_service.spring-cloud-feign%22%3A403%7D%7D [Cause: [status code: 404] Could not find config for namespace - appId: transaction-service, cluster: DEFAULT, namespace: micro_service.spring-cloud-feign, please check whether the configs are released in Apollo!]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,038 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,042 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,043 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,043 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,043 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,044 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,044 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,046 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,048 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,053 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,054 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,055 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,056 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,056 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,056 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,058 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,061 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,065 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,066 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,067 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,067 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,068 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,068 INFO [http-nio-53060-exec-4][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,071 DEBUG [http-nio-53060-exec-4][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,847 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO FROM project WHERE ID IN (?) 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,851 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,852 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,852 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Logic SQL: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,852 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=project, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=ID, tableName=project), operator=IN, compareOperator=null, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=project, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project 
+ 
+ WHERE ID IN (?))), containStar=false, firstSelectItemStartIndex=8, selectListStopIndex=205, groupByLastIndex=0, items=[CommonSelectItem(expression=ID, alias=Optional.absent()), CommonSelectItem(expression=CONSUMER_ID, alias=Optional.absent()), CommonSelectItem(expression=USER_NO, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_NO, alias=Optional.absent()), CommonSelectItem(expression=NAME, alias=Optional.absent()), CommonSelectItem(expression=DESCRIPTION, alias=Optional.absent()), CommonSelectItem(expression=TYPE, alias=Optional.absent()), CommonSelectItem(expression=PERIOD, alias=Optional.absent()), CommonSelectItem(expression=ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=BORROWER_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=COMMISSION_ANNUAL_RATE, alias=Optional.absent()), CommonSelectItem(expression=REPAYMENT_WAY, alias=Optional.absent()), CommonSelectItem(expression=AMOUNT, alias=Optional.absent()), CommonSelectItem(expression=PROJECT_STATUS, alias=Optional.absent()), CommonSelectItem(expression=CREATE_DATE, alias=Optional.absent()), CommonSelectItem(expression=STATUS, alias=Optional.absent()), CommonSelectItem(expression=IS_ASSIGNMENT, alias=Optional.absent()), CommonSelectItem(expression=REQUEST_NO, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,852 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,853 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT  ID,CONSUMER_ID,USER_NO,PROJECT_NO,NAME,DESCRIPTION,TYPE,PERIOD,ANNUAL_RATE,BORROWER_ANNUAL_RATE,COMMISSION_ANNUAL_RATE,REPAYMENT_WAY,AMOUNT,PROJECT_STATUS,CREATE_DATE,STATUS,IS_ASSIGNMENT,REQUEST_NO  FROM project_0 
+ 
+ WHERE ID IN (?) ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,855 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,858 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,864 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,865 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,865 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Logic SQL: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,865 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender WHERE PROJECT_ID = ? AND STATUS = 1)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=30, groupByLastIndex=0, items=[CommonSelectItem(expression=IFNULL(SUM(AMOUNT),0.0), alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,866 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,866 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT IFNULL(SUM(AMOUNT), 0.0) FROM tender_0 WHERE PROJECT_ID = ? AND STATUS = 1 ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,868 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - <==      Total: 2
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,872 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==>  Preparing: SELECT COUNT( 1 ) FROM tender WHERE PROJECT_ID = ? 
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,877 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - ==> Parameters: 1427202791340343298(Long)
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,877 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Rule Type: sharding
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,877 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Logic SQL: SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,878 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - SQLStatement: SelectStatement(super=DQLStatement(super=AbstractSQLStatement(type=DQL, tables=Tables(tables=[Table(name=tender, alias=Optional.absent())]), routeConditions=Conditions(orCondition=OrCondition(andConditions=[AndCondition(conditions=[Condition(column=Column(name=PROJECT_ID, tableName=tender), operator=EQUAL, compareOperator==, positionValueMap={}, positionIndexMap={0=0})])])), encryptConditions=Conditions(orCondition=OrCondition(andConditions=[])), sqlTokens=[TableToken(tableName=tender, quoteCharacter=NONE, schemaNameLength=0)], parametersIndex=1, logicSQL=SELECT COUNT( 1 ) FROM tender 
+ 
+ WHERE PROJECT_ID = ?)), containStar=false, firstSelectItemStartIndex=7, selectListStopIndex=16, groupByLastIndex=0, items=[AggregationSelectItem(type=COUNT, innerExpression=( 1 ), alias=Optional.absent(), derivedAggregationSelectItems=[], index=1)], groupByItems=[], orderByItems=[], limit=null, subqueryStatement=null, subqueryStatements=[], subqueryConditions=[])
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,878 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds0 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,879 INFO [http-nio-53060-exec-7][SQLLogger.java:89] - Actual SQL: ds1 ::: SELECT COUNT( 1 ) FROM tender_0 
+ 
+ WHERE PROJECT_ID = ? ::: [1427202791340343298]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:46,881 DEBUG [http-nio-53060-exec-7][BaseJdbcLogger.java:159] - <==      Total: 1
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:03:59,131 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,910 INFO [Thread-87][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,918 INFO [Thread-75][EurekaServiceRegistry.java:65] - Unregistering application TRANSACTION-SERVICE with eureka with status DOWN
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,919 WARN [Thread-75][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1629277509919, current=DOWN, previous=UP]
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,919 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_TRANSACTION-SERVICE/transaction-service:172.19.130.1:53060: registering service...
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,923 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_TRANSACTION-SERVICE/transaction-service:172.19.130.1:53060 - registration status: 204
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,955 INFO [Thread-75][QuartzScheduler.java:585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,958 INFO [Thread-75][SchedulerFactoryBean.java:844] - Shutting down Quartz Scheduler
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,958 INFO [Thread-75][QuartzScheduler.java:666] - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,958 INFO [Thread-75][QuartzScheduler.java:585] - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,959 INFO [Thread-75][QuartzScheduler.java:740] - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,961 INFO [Thread-75][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,970 INFO [Thread-75][ShutdownEnabledTimer.java:67] - Shutdown hook removed for: NFLoadBalancer-PingTimer-content-search-service
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,970 INFO [Thread-75][ShutdownEnabledTimer.java:72] - Exception caught (might be ok if at shutdown)
 java.lang.IllegalStateException: Shutdown in progress
 	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82)
 	at java.lang.Runtime.removeShutdownHook(Runtime.java:239)
@@ -466,11 +469,11 @@ java.lang.IllegalStateException: Shutdown in progress
 	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
 	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
 	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,232 INFO [Thread-65][DruidDataSource.java:1885] - {dataSource-1} closing ...
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,238 INFO [Thread-65][DruidDataSource.java:1955] - {dataSource-1} closed
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,238 INFO [Thread-65][DruidDataSource.java:1885] - {dataSource-2} closing ...
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,239 INFO [Thread-65][DruidDataSource.java:1955] - {dataSource-2} closed
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:48,243 INFO [Thread-65][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:51,244 INFO [Thread-65][DiscoveryClient.java:922] - Unregistering ...
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:51,249 INFO [Thread-65][DiscoveryClient.java:924] - DiscoveryClient_TRANSACTION-SERVICE/transaction-service:172.19.130.1:53060 - deregister  status: 200
-[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 12:00:51,258 INFO [Thread-65][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,983 INFO [Thread-75][DruidDataSource.java:1885] - {dataSource-1} closing ...
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,988 INFO [Thread-75][DruidDataSource.java:1955] - {dataSource-1} closed
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,989 INFO [Thread-75][DruidDataSource.java:1885] - {dataSource-2} closing ...
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,990 INFO [Thread-75][DruidDataSource.java:1955] - {dataSource-2} closed
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:09,998 INFO [Thread-75][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:12,998 INFO [Thread-75][DiscoveryClient.java:922] - Unregistering ...
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:13,004 INFO [Thread-75][DiscoveryClient.java:924] - DiscoveryClient_TRANSACTION-SERVICE/transaction-service:172.19.130.1:53060 - deregister  status: 200
+[wanxinp2p-transaction-service][${env:SERVER_PORT}] 2021-08-18 17:05:13,017 INFO [Thread-75][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient

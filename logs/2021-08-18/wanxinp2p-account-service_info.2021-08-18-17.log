@@ -1,0 +1,22 @@
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:00:58,194 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:01:56,919 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:01:58,195 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:02:58,197 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:03:58,199 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:04:58,200 INFO [hmilyTransaction-hmily-transaction-self-recovery-2][LogUtil.java:87] - self recovery execute delayTime:60
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:15,142 INFO [Thread-132][HmilyInitServiceImpl.java:66] - hmily shutdown now
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:15,619 INFO [Thread-167][EurekaServiceRegistry.java:65] - Unregistering application ACCOUNT-SERVICE with eureka with status DOWN
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:15,648 WARN [Thread-167][DiscoveryClient.java:1303] - Saw local status change event StatusChangeEvent [timestamp=1629277515648, current=DOWN, previous=UP]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:15,662 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.19.130.1:53030: registering service...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:15,761 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.19.130.1:53030 - registration status: 204
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:16,856 INFO [Thread-167][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:18,308 INFO [Thread-167][DruidDataSource.java:1885] - {dataSource-1} closing ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:18,345 INFO [Thread-167][DruidDataSource.java:1955] - {dataSource-1} closed
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:18,568 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[192.168.85.131:9876] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:18,583 INFO [NettyClientSelector_1][Slf4jLoggerFactory.java:95] - closeChannel: close the connection to remote address[192.168.85.131:9876] result: true
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:18,614 INFO [Thread-167][DisposableBeanAdapter.java:265] - Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:18,615 INFO [Thread-167][DisposableBeanAdapter.java:347] - Destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:18,615 INFO [Thread-167][DiscoveryClient.java:888] - Shutting down DiscoveryClient ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:21,682 INFO [Thread-167][DiscoveryClient.java:922] - Unregistering ...
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:21,969 INFO [Thread-167][DiscoveryClient.java:924] - DiscoveryClient_ACCOUNT-SERVICE/account-service:172.19.130.1:53030 - deregister  status: 200
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-08-18 17:05:22,388 INFO [Thread-167][DiscoveryClient.java:911] - Completed shut down of DiscoveryClient

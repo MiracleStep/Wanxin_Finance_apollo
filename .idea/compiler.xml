@@ -9,11 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="wanxinp2p-discover-server" />
         <module name="wanxinp2p-consumer-service" />
+        <module name="wanxinp2p-repayment-service" />
         <module name="wanxinp2p-account-service" />
         <module name="wanxinp2p-common" />
         <module name="wanxinp2p-gateway-server" />
-        <module name="wanxinp2p-api" />
         <module name="wanxinp2p-content-search-service" />
+        <module name="wanxinp2p-api" />
         <module name="wanxinp2p-transaction-service" />
         <module name="wanxinp2p-depository-agent-service" />
         <module name="wanxinp2p-uaa-service" />
@@ -42,6 +43,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MyTest" options="" />
       <module name="wanxindepository" options="-parameters" />
+      <module name="wanxinp2p" options="" />
       <module name="wanxinp2p-account-service" options="-parameters" />
       <module name="wanxinp2p-api" options="-parameters" />
       <module name="wanxinp2p-common" options="-parameters" />
@@ -51,7 +53,7 @@
       <module name="wanxinp2p-discover-server" options="-parameters" />
       <module name="wanxinp2p-file-service" options="" />
       <module name="wanxinp2p-gateway-server" options="-parameters" />
-      <module name="wanxinp2p-repayment-service" options="" />
+      <module name="wanxinp2p-repayment-service" options="-parameters" />
       <module name="wanxinp2p-sms-service" options="" />
       <module name="wanxinp2p-transaction-service" options="-parameters" />
       <module name="wanxinp2p-uaa-service" options="-parameters" />
