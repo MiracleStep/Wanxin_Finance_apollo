@@ -52,4 +52,11 @@ public interface ConsumerService extends IService<Consumer> {
      * @return
      */
     BorrowerDTO getBorrower(Long id);
+
+    /**
+     * 获取借款人基本信息
+     * @param id
+     * @return
+     */
+    BorrowerDTO getBorrowerByUserNo(String userNo);
 }

@@ -97,10 +97,20 @@ public class ConsumerController implements ConsumerAPI {
     }
 
     @Override
+    @ApiOperation("获取借款人用户信息")
+    @ApiImplicitParam(name = "id", value = "用户标识", required = true,
+            dataType = "Long", paramType = "path")
+    @GetMapping("/l/borrowers/{userNo}")
+    public RestResponse<BorrowerDTO> getBorrowerMobile(@PathVariable("userNo") String userNo) {
+        BorrowerDTO borrower = consumerService.getBorrowerByUserNo(userNo);
+        return RestResponse.success(borrower);
+    }
+
+    @Override
     @ApiOperation("获取用户可用余额")
     @ApiImplicitParam(name = "userNo", value = "用户编码", required = true, dataType = "String")
     @GetMapping("/l/balances/{userNo}")
-    public RestResponse<BalanceDetailsDTO> getBalance(@PathVariable String userNo) {
+    public RestResponse<BalanceDetailsDTO> getBalance(@PathVariable("userNo") String userNo) {
         RestResponse<BalanceDetailsDTO> balanceFromDepository = getBalanceFromDepository(userNo);
         return balanceFromDepository;
     }

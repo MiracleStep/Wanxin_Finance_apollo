@@ -22,6 +22,13 @@ public interface RepaymentService {
      */
     List<RepaymentPlan> selectDueRepayment(String date);
 
+    /**
+     * 查询到期还款计划
+     * @param date 格式为：yyyy-MM-dd
+     * @return
+     */
+    List<RepaymentPlan> selectDueRepayment(String date,int shardingCount,int shardingItem);
+
 
     /**
      * 根据还款计划生成还款明细并保存
@@ -33,7 +40,11 @@ public interface RepaymentService {
     /**
      * 执行用户还款
      */
-    void executeRepayment(String date);
+//    void executeRepayment(String date);
+    /**
+     * 执行用户还款
+     */
+    void executeRepayment(String date,int shardingCount,int shardingItem);
 
     /**
      * 还款预处理：冻结借款人应还金额
@@ -60,4 +71,9 @@ public interface RepaymentService {
      */
     void invokeConfirmRepayment(RepaymentPlan repaymentPlan, RepaymentRequest repaymentRequest);
 
+
+    /**
+     * 查询借款人相关信息
+     */
+    void sendRepaymentNotify(String date);
 }

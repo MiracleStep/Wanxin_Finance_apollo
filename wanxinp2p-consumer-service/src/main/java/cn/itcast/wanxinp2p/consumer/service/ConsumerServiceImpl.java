@@ -107,6 +107,28 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
 
     }
 
+    @Override
+    public BorrowerDTO getBorrowerByUserNo(String userNo) {
+        ConsumerDTO consumerDTO = getByUserNo(userNo);
+        BorrowerDTO borrowerDTO = new BorrowerDTO();
+        BeanUtils.copyProperties(consumerDTO,borrowerDTO);
+        Map<String, String> cardInfo = IDCardUtil.getInfo(borrowerDTO.getIdNumber());
+        borrowerDTO.setAge(new Integer(cardInfo.get("age")));
+        borrowerDTO.setBirthday(cardInfo.get("birthday"));
+        borrowerDTO.setGender(cardInfo.get("gender"));
+        return borrowerDTO;
+    }
+
+    private ConsumerDTO getByUserNo(String userNo) {
+        Consumer entity = getOne(Wrappers.<Consumer>lambdaQuery().eq(Consumer::getUserNo, userNo));
+
+        if (entity == null) {
+            log.info("userNo为{}的用户信息不存在", userNo);
+            throw new BusinessException(ConsumerErrorCode.E_140101);
+        }
+        return convertConsumerEntityToDTO(entity);
+    }
+
     private ConsumerDTO get(Long id) {
         Consumer entity = getById(id);
         if (entity == null) {

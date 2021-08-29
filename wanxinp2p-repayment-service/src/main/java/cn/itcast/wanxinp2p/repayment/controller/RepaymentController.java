@@ -32,7 +32,14 @@ public class RepaymentController implements RepaymentApi {
     @ApiOperation("测试用户还款")
     @GetMapping("/execute-repayment/{date}")
     public void testExecuteRepayment(@PathVariable String date) {
-        repaymentService.executeRepayment(date);
+//        repaymentService.executeRepayment(date);
+
+    }
+
+    @ApiOperation("测试发送用户还款短信")
+    @GetMapping("/repayment-notify/{date}")
+    public void testRepaymentNotify(@PathVariable String date) {
+        repaymentService.sendRepaymentNotify(date);
     }
 
 }

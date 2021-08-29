@@ -1,4 +1,5 @@
-[${project.name}][${env:SERVER_PORT}] 2021-08-29 21:36:46,756 ERROR [http-nio-53070-exec-8][GlobalExceptionHandler.java:45] - 【系统异常】{}
+[${project.name}][${env:SERVER_PORT}] 2021-08-29 18:19:08,004 ERROR [main][MybatisConfiguration.java:90] - mapper[cn.itcast.wanxinp2p.repayment.mapper.PlanMapper.selectDueRepayment] is ignored, because it exists, maybe from xml file
+[${project.name}][${env:SERVER_PORT}] 2021-08-29 18:36:46,631 ERROR [http-nio-53070-exec-5][GlobalExceptionHandler.java:45] - 【系统异常】{}
 org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
 	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:77)
 	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)

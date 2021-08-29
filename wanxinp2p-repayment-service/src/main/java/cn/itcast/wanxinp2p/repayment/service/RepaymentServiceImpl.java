@@ -1,5 +1,6 @@
 package cn.itcast.wanxinp2p.repayment.service;
 
+import cn.itcast.wanxinp2p.api.consumer.model.BorrowerDTO;
 import cn.itcast.wanxinp2p.api.depository.model.RepaymentDetailRequest;
 import cn.itcast.wanxinp2p.api.depository.model.RepaymentRequest;
 import cn.itcast.wanxinp2p.api.repayment.model.ProjectWithTendersDTO;
@@ -9,6 +10,7 @@ import cn.itcast.wanxinp2p.api.transaction.model.UserAutoPreTransactionRequest;
 import cn.itcast.wanxinp2p.common.domain.*;
 import cn.itcast.wanxinp2p.common.util.CodeNoUtil;
 import cn.itcast.wanxinp2p.common.util.DateUtil;
+import cn.itcast.wanxinp2p.repayment.agent.ConsumerApiAgent;
 import cn.itcast.wanxinp2p.repayment.agent.DepositoryAgentApiAgent;
 import cn.itcast.wanxinp2p.repayment.entity.ReceivableDetail;
 import cn.itcast.wanxinp2p.repayment.entity.ReceivablePlan;
@@ -50,11 +52,17 @@ public class RepaymentServiceImpl implements RepaymentService {
     @Autowired
     private DepositoryAgentApiAgent depositoryAgentApiAgent;
 
-    @Autowired
+    @Resource
     private ReceivableDetailMapper receivableDetailMapper;
 
     @Autowired
     private RepaymentProducer repaymentProducer;
+
+    @Autowired
+    private ConsumerApiAgent consumerApiAgent;
+
+    @Autowired
+    private SmsService smsService;
 
     @Override
 //    @Transactional(rollbackFor = BusinessException.class)
@@ -194,6 +202,11 @@ public class RepaymentServiceImpl implements RepaymentService {
     }
 
     @Override
+    public List<RepaymentPlan> selectDueRepayment(String date,int shardingCount,int shardingItem) {
+        return planMapper.selectDueRepaymentList(date,shardingCount,shardingItem);
+    }
+
+    @Override
     public List<RepaymentPlan> selectDueRepayment(String date) {
         return planMapper.selectDueRepayment(date);
     }
@@ -225,13 +238,15 @@ public class RepaymentServiceImpl implements RepaymentService {
     }
 
     @Override
-    public void executeRepayment(String date) {
+    public void executeRepayment(String date,int shardingCount,int shardingItem) {
         //查询到期的还款计划
-        List<RepaymentPlan> repaymentPlans = selectDueRepayment(date);
+        List<RepaymentPlan> repaymentPlans = selectDueRepayment(date, shardingCount,shardingItem);
 
         //生成还款明细
         repaymentPlans.forEach(repaymentPlan -> {
             RepaymentDetail repaymentDetail = saveRepaymentDetail(repaymentPlan);
+            System.out.println("当前分片："+shardingItem+"\n"+repaymentPlan);
+            //还款预处理
             Boolean preRepaymentResult = preRepayment(repaymentPlan,repaymentDetail.getRequestNo());
             if(preRepaymentResult){
                 System.out.println("还款预处理成功");
@@ -239,7 +254,6 @@ public class RepaymentServiceImpl implements RepaymentService {
                 repaymentProducer.confirmRepayment(repaymentPlan,repaymentRequest);
             }
         });
-
     }
 
     @Override
@@ -304,7 +318,11 @@ public class RepaymentServiceImpl implements RepaymentService {
         //2.1 更新receivable_plan表为：已收
         //根据还款计划id，查询应收计划
         List<ReceivablePlan> receivablePlanList = receivablePlanMapper.selectList(Wrappers.<ReceivablePlan>lambdaQuery().eq(ReceivablePlan::getRepaymentId, repaymentPlan.getId()));
-        receivablePlanList.forEach(receivablePlan -> {
+//        receivablePlanList.forEach(receivablePlan -> {
+//
+//        });
+
+        for (ReceivablePlan receivablePlan : receivablePlanList) {
             receivablePlan.setReceivableStatus(1);
             receivablePlanMapper.updateById(receivablePlan);
 
@@ -319,7 +337,7 @@ public class RepaymentServiceImpl implements RepaymentService {
             receivableDetail.setReceivableDate(DateUtil.now());
             // 保存投资人应收明细
             receivableDetailMapper.insert(receivableDetail);
-        });
+        }
 
         //3.更新还款计划：已还款
         repaymentPlan.setRepaymentStatus("1");
@@ -334,6 +352,8 @@ public class RepaymentServiceImpl implements RepaymentService {
             throw new RuntimeException("还款失败");
         }
     }
+
+
 
 
     /**
@@ -359,6 +379,23 @@ public class RepaymentServiceImpl implements RepaymentService {
         userAutoPreTransactionRequest.setId(repaymentPlan.getId());
         // 返回结果
         return userAutoPreTransactionRequest;
+    }
+
+
+    @Override
+    public void sendRepaymentNotify(String date) {
+        //1.查询到期还款计划
+        List<RepaymentPlan> repaymentPlanList = selectDueRepayment(date);
+        //2.遍历还款计划
+        repaymentPlanList.forEach(repaymentPlan -> {
+            //3.得到还款人的信息
+            RestResponse<BorrowerDTO> consumerResponse = consumerApiAgent.getBorrowerMobile(repaymentPlan.getUserNo());
+            //4.得到还款人的手机号
+            String mobile = consumerResponse.getResult().getMobile();
+            //5.发送还款短信
+            smsService.sendRepaymentNotify(mobile,date,repaymentPlan.getAmount());
+        });
+
     }
 
 }

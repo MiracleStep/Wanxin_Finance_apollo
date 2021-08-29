@@ -3,7 +3,7 @@ app:
 apollo:
   bootstrap:
     enabled: true
-    namespaces: micro_service.spring-boot-druid,application,micro_service.spring-boot-http,micro_service.spring-eureka,micro_service.spring-cloud-feign,micro_service.spring-ribbon,micro_service.mybatis-plus,micro_service.spring-rocketmq
+    namespaces: micro_service.spring-boot-druid,application,micro_service.spring-boot-http,micro_service.spring-eureka,micro_service.spring-cloud-feign,micro_service.spring-ribbon,micro_service.mybatis-plus,micro_service.spring-rocketmq,micro_service.elasticjob
 
 spring:
   application:
