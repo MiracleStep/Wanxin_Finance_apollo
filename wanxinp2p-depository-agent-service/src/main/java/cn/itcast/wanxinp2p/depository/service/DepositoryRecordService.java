@@ -1,10 +1,7 @@
 package cn.itcast.wanxinp2p.depository.service;
 
 import cn.itcast.wanxinp2p.api.account.model.ConsumerRequest;
-import cn.itcast.wanxinp2p.api.depository.model.DepositoryBaseResponse;
-import cn.itcast.wanxinp2p.api.depository.model.DepositoryResponseDTO;
-import cn.itcast.wanxinp2p.api.depository.model.GatewayRequest;
-import cn.itcast.wanxinp2p.api.depository.model.LoanRequest;
+import cn.itcast.wanxinp2p.api.depository.model.*;
 import cn.itcast.wanxinp2p.api.transaction.model.ModifyProjectStatusDTO;
 import cn.itcast.wanxinp2p.api.transaction.model.ProjectDTO;
 import cn.itcast.wanxinp2p.api.transaction.model.UserAutoPreTransactionRequest;
@@ -58,5 +55,12 @@ public interface DepositoryRecordService extends IService<DepositoryRecord> {
     DepositoryResponseDTO<DepositoryBaseResponse>
     modifyProjectStatus(ModifyProjectStatusDTO modifyProjectStatusDTO);
 
+
+    /**
+     * 还款确认
+     * @param repaymentRequest
+     * @return
+     */
+    DepositoryResponseDTO<DepositoryBaseResponse> confirmRepayment(RepaymentRequest repaymentRequest);
 
 }

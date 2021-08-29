@@ -4,6 +4,6 @@
 <mapper namespace="cn.itcast.wanxinp2p.repayment.mapper.PlanMapper">
 
     <select id="selectDueRepayment"  resultType="cn.itcast.wanxinp2p.repayment.entity.RepaymentPlan">
-
+        select * from repayment_plan where DATE_FORMAT(SHOULD_REPAYMENT_DATE,'%Y-%m-%d') = #{date} and REPAYMENT_STATUS = '0';
     </select>
 </mapper>

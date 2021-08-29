@@ -3,6 +3,7 @@ package cn.itcast.wanxinp2p.api.depository;
 import cn.itcast.wanxinp2p.api.account.model.ConsumerRequest;
 import cn.itcast.wanxinp2p.api.depository.model.GatewayRequest;
 import cn.itcast.wanxinp2p.api.depository.model.LoanRequest;
+import cn.itcast.wanxinp2p.api.depository.model.RepaymentRequest;
 import cn.itcast.wanxinp2p.api.transaction.model.ModifyProjectStatusDTO;
 import cn.itcast.wanxinp2p.api.transaction.model.ProjectDTO;
 import cn.itcast.wanxinp2p.api.transaction.model.UserAutoPreTransactionRequest;
@@ -53,4 +54,8 @@ public interface DepositoryAgentApi {
     RestResponse<String> modifyProjectStatus(ModifyProjectStatusDTO
                                                      modifyProjectStatusDTO);
 
+    /**
+     * 还款确认
+     */
+    RestResponse<String> confirmRepayment(RepaymentRequest repaymentRequest);
 }
