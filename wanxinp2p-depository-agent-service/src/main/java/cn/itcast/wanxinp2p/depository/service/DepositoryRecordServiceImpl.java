@@ -55,6 +55,24 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
     }
 
     @Override
+    public GatewayRequest createRechargeRecord(RechargeRequest rechargeRequest) {
+        //1.保存充值记录
+        this.saveDepositoryRecord(rechargeRequest);
+        //2.签名（加密）数据并返回
+        String reqData = JSON.toJSONString(rechargeRequest);
+        String sign = RSAUtil.sign(reqData, configService.getP2pPrivateKey(), "utf-8");
+        GatewayRequest gatewayRequest = new GatewayRequest();
+        gatewayRequest.setServiceName("RECHARGE");
+        gatewayRequest.setPlatformNo(configService.getP2pCode());
+        gatewayRequest.setReqData(EncryptUtil.encodeURL(EncryptUtil.encodeUTF8StringBase64(reqData)));
+        gatewayRequest.setSignature(EncryptUtil.encodeURL(sign));
+        gatewayRequest.setDepositoryUrl(configService.getDepositoryUrl() + "/gateway");
+        return gatewayRequest;
+    }
+
+
+
+    @Override
     public Boolean modifyRequestStatus(String requestNo, Integer requestsStatus) {
         return update(Wrappers.<DepositoryRecord>lambdaUpdate()
                 .eq(DepositoryRecord::getRequestNo,requestNo)
@@ -167,6 +185,8 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
         return sendHttpGet("CONFIRM_REPAYMENT", url, reqData, depositoryRecord);
 
     }
+
+
 
     /**
      * 实现幂等性
@@ -307,6 +327,17 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
         depositoryRecord.setRequestType(DepositoryRequestTypeCode.CONSUMER_CREATE.getCode());
         depositoryRecord.setObjectType("Consumer");
         depositoryRecord.setObjectId(consumerRequest.getId());
+        depositoryRecord.setCreateDate(LocalDateTime.now());
+        depositoryRecord.setRequestStatus(StatusCode.STATUS_OUT.getCode());
+        save(depositoryRecord);
+    }
+
+    private void saveDepositoryRecord(RechargeRequest rechargeRequest){
+        DepositoryRecord depositoryRecord = new DepositoryRecord();
+        depositoryRecord.setRequestNo(rechargeRequest.getRequestNo());
+        depositoryRecord.setRequestType(DepositoryRequestTypeCode.CONSUMER_CREATE.getCode());
+        depositoryRecord.setObjectType("RechargeRecord");
+        depositoryRecord.setObjectId(rechargeRequest.getId());
         depositoryRecord.setCreateDate(LocalDateTime.now());
         depositoryRecord.setRequestStatus(StatusCode.STATUS_OUT.getCode());
         save(depositoryRecord);

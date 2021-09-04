@@ -10,6 +10,8 @@ import cn.itcast.wanxinp2p.common.domain.RestResponse;
 import cn.itcast.wanxinp2p.consumer.entity.Consumer;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.math.BigDecimal;
+
 public interface ConsumerService extends IService<Consumer> {
     /**
      * 检测用户是否存在
@@ -59,4 +61,21 @@ public interface ConsumerService extends IService<Consumer> {
      * @return
      */
     BorrowerDTO getBorrowerByUserNo(String userNo);
+
+
+    /**
+     * 用户充值
+     * @param amount
+     * @param callbackUrl
+     * @param consumerDTO
+     * @return
+     */
+    RestResponse<GatewayRequest> createRechargeRecord(String amount, String callbackUrl, ConsumerDTO consumerDTO, BigDecimal balance);
+
+    /**
+     * 用户充值状态更新
+     * @param depositoryConsumerResponse
+     * @return
+     */
+    Boolean modifyRechargeStatus(DepositoryConsumerResponse depositoryConsumerResponse);
 }

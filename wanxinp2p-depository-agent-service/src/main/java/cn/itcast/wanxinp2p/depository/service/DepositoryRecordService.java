@@ -63,4 +63,10 @@ public interface DepositoryRecordService extends IService<DepositoryRecord> {
      */
     DepositoryResponseDTO<DepositoryBaseResponse> confirmRepayment(RepaymentRequest repaymentRequest);
 
+    /**
+     * 用户充值
+     * @param rechargeRequest
+     * @return
+     */
+    GatewayRequest createRechargeRecord(RechargeRequest rechargeRequest);
 }

@@ -1,6 +1,8 @@
 package cn.itcast.wanxinp2p.consumer.message;
 
 import cn.itcast.wanxinp2p.api.depository.model.DepositoryConsumerResponse;
+import cn.itcast.wanxinp2p.common.domain.BusinessException;
+import cn.itcast.wanxinp2p.consumer.common.ConsumerErrorCode;
 import cn.itcast.wanxinp2p.consumer.service.ConsumerService;
 import com.alibaba.fastjson.JSON;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
@@ -48,6 +50,12 @@ public class GatewayNotifyConsumer {
                     if(tags.equals("PERSONAL_REGISTER")){
                         DepositoryConsumerResponse response = JSON.parseObject(body, DepositoryConsumerResponse.class);
                         consumerService.modifyResult(response);
+                    }else if(tags.equals("RECHARGE")){
+                        DepositoryConsumerResponse depositoryConsumerResponse = JSON.parseObject(body, DepositoryConsumerResponse.class);
+                        Boolean result = consumerService.modifyRechargeStatus(depositoryConsumerResponse);
+                        if(result == false){
+                            throw new BusinessException(ConsumerErrorCode.E_140131);
+                        }
                     }
                 }catch (Exception e){
                     return ConsumeConcurrentlyStatus.RECONSUME_LATER;

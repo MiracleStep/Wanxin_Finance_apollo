@@ -59,4 +59,24 @@ public class DepositoryNotifyController {
         rocketMQTemplate.convertAndSend("TP_GATEWAY_NOTIFY_AGENT:PERSONAL_REGISTER", "response????");
         return RestResponse.success();
     }
+
+    @ApiOperation("接受银行存管系统充值返回结果")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "serviceName", value = "请求的银行存管接口名", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "platformNo", value = "平台编号，平台与存管系统签约时获取", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "signature", value = "对reqData参数的签名", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "reqData", value = "业务数据报文，json格式", required = true, dataType = "String", paramType = "query"),})
+    @RequestMapping(value = "/gateway", method = RequestMethod.GET, params = "serviceName=RECHARGE")
+    public String receiveDepositoryRechargeResult(@RequestParam("serviceName") String serviceName,
+            @RequestParam("platformNo") String platformNo,
+            @RequestParam("signature") String signature,
+            @RequestParam("reqData") String reqData){
+        String jsonStr = EncryptUtil.decodeUTF8StringBase64(reqData);
+        DepositoryConsumerResponse depositoryConsumerResponse = JSON.parseObject(jsonStr, DepositoryConsumerResponse.class);
+        //1.更新数据
+        depositoryRecordService.modifyRequestStatus(depositoryConsumerResponse.getRequestNo(),depositoryConsumerResponse.getStatus());
+        //2.给用户中心发送消息
+        rocketMQTemplate.convertAndSend("TP_GATEWAY_NOTIFY_AGENT:RECHARGE", depositoryConsumerResponse);
+        return "OK";
+    }
 }

@@ -37,6 +37,15 @@ public class DepositoryAgentController implements DepositoryAgentApi {
         }
 
         @Override
+        @ApiOperation("生成充值请求数据")
+        @ApiImplicitParam(name = "rechargeRequest", value = "充值信息", required = true, dataType = "RechargeRequest", paramType = "body")
+        @PostMapping("/l/recharges")
+        public RestResponse<GatewayRequest> createRechargeRecord(@RequestBody RechargeRequest rechargeRequest){
+            return RestResponse.success(depositoryRecordService.createRechargeRecord(rechargeRequest));
+        }
+
+
+        @Override
         @ApiOperation(value = "向存管系统发送标的信息")
         @ApiImplicitParam(name = "projectDTO", value = "向存管系统发送标的信息",
                 required = true, dataType = "ProjectDTO", paramType = "body")
@@ -100,5 +109,8 @@ public class DepositoryAgentController implements DepositoryAgentApi {
                 DepositoryResponseDTO<DepositoryBaseResponse> depositoryResponseDTO = depositoryRecordService.confirmRepayment(repaymentRequest);
                 return getRestResponse(depositoryResponseDTO);
         }
+
+
+
 
 }

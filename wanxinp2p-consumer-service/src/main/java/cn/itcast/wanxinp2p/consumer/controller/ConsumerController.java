@@ -14,6 +14,7 @@ import cn.itcast.wanxinp2p.consumer.service.ConsumerService;
 import com.alibaba.fastjson.JSON;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.OkHttpClient;
@@ -24,6 +25,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 
 @RestController
 @Slf4j
@@ -118,8 +120,7 @@ public class ConsumerController implements ConsumerAPI {
     @Override
     @GetMapping("/my/balances")
     public RestResponse<BalanceDetailsDTO> getMyBalance() {
-        ConsumerDTO consumerDTO = consumerService
-                .getByMobile(SecurityUtil.getUser().getMobile());
+        ConsumerDTO consumerDTO = consumerService.getByMobile(SecurityUtil.getUser().getMobile());
         return getBalanceFromDepository(consumerDTO.getUserNo());
     }
 
@@ -146,6 +147,21 @@ public class ConsumerController implements ConsumerAPI {
             log.warn("调用存管系统{}获取余额失败 ", url, e);
         }
         return RestResponse.validfail("获取失败");
+    }
+
+    @Override
+    @ApiOperation("生成充值请求数据")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "amount", value = "金额", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "callbackURL", value = "通知结果回调Url", required = true, dataType = "String", paramType = "query")})
+    @GetMapping("/my/recharge-records")
+    public RestResponse<GatewayRequest> createRechargeRecord(@RequestParam String amount,
+                                                             @RequestParam String callbackUrl){
+
+        ConsumerDTO consumerDTO = consumerService.getByMobile(SecurityUtil.getUser().getMobile());
+        RestResponse<BalanceDetailsDTO> balanceFromDepository = getBalanceFromDepository(consumerDTO.getUserNo());
+        BigDecimal balance = balanceFromDepository.getResult().getBalance();
+        return consumerService.createRechargeRecord(amount,callbackUrl,consumerDTO,balance);
     }
 
 

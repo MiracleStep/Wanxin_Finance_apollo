@@ -9,6 +9,7 @@ import cn.itcast.wanxinp2p.api.consumer.model.ConsumerDTO;
 import cn.itcast.wanxinp2p.api.consumer.model.ConsumerRegisterDTO;
 import cn.itcast.wanxinp2p.api.depository.model.DepositoryConsumerResponse;
 import cn.itcast.wanxinp2p.api.depository.model.GatewayRequest;
+import cn.itcast.wanxinp2p.api.depository.model.RechargeRequest;
 import cn.itcast.wanxinp2p.common.domain.*;
 import cn.itcast.wanxinp2p.common.util.CodeNoUtil;
 import cn.itcast.wanxinp2p.common.util.IDCardUtil;
@@ -17,7 +18,9 @@ import cn.itcast.wanxinp2p.consumer.agent.DepositoryAgentApiAgent;
 import cn.itcast.wanxinp2p.consumer.common.ConsumerErrorCode;
 import cn.itcast.wanxinp2p.consumer.entity.BankCard;
 import cn.itcast.wanxinp2p.consumer.entity.Consumer;
+import cn.itcast.wanxinp2p.consumer.entity.RechargeRecord;
 import cn.itcast.wanxinp2p.consumer.mapper.ConsumerMapper;
+import cn.itcast.wanxinp2p.consumer.mapper.RechargeRecordMapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
@@ -29,6 +32,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.Map;
 
 @Service
@@ -43,6 +48,9 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
 
     @Autowired
     private DepositoryAgentApiAgent depositoryAgentApiAgent;
+
+    @Autowired
+    private RechargeRecordMapper rechargeRecordMapper;
 
     @Override
     public Integer checkMobile(String mobile) {
@@ -118,6 +126,9 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
         borrowerDTO.setGender(cardInfo.get("gender"));
         return borrowerDTO;
     }
+
+
+
 
     private ConsumerDTO getByUserNo(String userNo) {
         Consumer entity = getOne(Wrappers.<Consumer>lambdaQuery().eq(Consumer::getUserNo, userNo));
@@ -199,8 +210,41 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
 
         //5.准备数据、发起远程调用、把数据发到存管代理服务
         RestResponse<GatewayRequest> consumer = depositoryAgentApiAgent.createConsumer(consumerRequest);
-        return  consumer;
+        return consumer;
     }
+
+    @Override
+//    @Transactional
+    public RestResponse<GatewayRequest> createRechargeRecord(String amount, String callbackUrl, ConsumerDTO consumerDTO, BigDecimal balance) {
+        BigDecimal amountDecimal = new BigDecimal(amount);
+//        if(amountDecimal.compareTo(balance)>0){
+//            throw new BusinessException(ConsumerErrorCode.E_140131);
+//        }
+        RechargeRecord rechargeRecord = new RechargeRecord();
+        rechargeRecord.setConsumerId(consumerDTO.getId());
+        rechargeRecord.setUserNo(consumerDTO.getUserNo());
+        rechargeRecord.setAmount(amountDecimal);
+        rechargeRecord.setCreateDate(LocalDateTime.now());
+        rechargeRecord.setCallbackStatus(StatusCode.STATUS_OUT.getCode());
+        rechargeRecord.setRequestNo(CodeNoUtil.getNo(CodePrefixCode.CODE_REQUEST_PREFIX));
+        rechargeRecordMapper.insert(rechargeRecord);
+
+        RechargeRequest rechargeRequest = new RechargeRequest();
+        rechargeRequest.setId(consumerDTO.getId());
+        rechargeRequest.setRequestNo(rechargeRecord.getRequestNo());
+        rechargeRequest.setUserNo(consumerDTO.getUserNo());
+        rechargeRequest.setCallbackUrl(callbackUrl);
+        rechargeRequest.setAmount(amountDecimal);
+        RestResponse<GatewayRequest> rechargeRecordResponse = depositoryAgentApiAgent.createRechargeRecord(rechargeRequest);
+        return rechargeRecordResponse;
+    }
+
+    @Override
+    public Boolean modifyRechargeStatus(DepositoryConsumerResponse depositoryConsumerResponse) {
+        int update = rechargeRecordMapper.update(null, Wrappers.<RechargeRecord>lambdaUpdate().eq(RechargeRecord::getRequestNo, depositoryConsumerResponse.getRequestNo()).set(RechargeRecord::getCallbackStatus, depositoryConsumerResponse.getStatus()));
+        return update>0;
+    }
+
 
     @Override
     @Transactional
@@ -221,10 +265,11 @@ public class ConsumerServiceImpl extends ServiceImpl<ConsumerMapper, Consumer> i
                 .set(BankCard::getStatus, status).set(BankCard::getBankCode,
                         response.getBankCode())
                 .set(BankCard::getBankName, response.getBankName()));
-
     }
 
     private Consumer getByRequestNo(String requestNo){
         return getOne(Wrappers.<Consumer>lambdaQuery().eq(Consumer::getRequestNo,requestNo));
     }
+
+
 }
